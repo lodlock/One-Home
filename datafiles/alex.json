@@ -1,0 +1,991 @@
+{
+  "c0": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Oh, hi there! Didn't expect anybody in the locker room. You okay?"
+      ],
+      [
+        0,
+        "Yeah, just seeing what this place has. It's kind of cramped, you know? I sincerely hope they aren't expecting me to sit in some fucking cubicle all day. I'm Alex, what's your name?"
+      ],
+      [
+        1,
+        "Name's __player__, nice to meet you. So, you are the specialist for what?"
+      ],
+      [
+        0,
+        "Metal, music and materials. You want music that doesn't suck, come see me. You want scrap turned into art, come see me. I can turn a junk car into a workable shelter in an hour, give me two and I'll even decorate. That's what this gig is for, right?"
+      ],
+      [
+        1,
+        "Wow, that's impressive... extreme, but definitely useful."
+      ]
+    ],
+    "options": [
+      {
+        "text": "That is what we need with this screwed up situation our planet is in.",
+        "output": "goto:c1"
+      },
+      {
+        "text": "Are you just into fancy scrap?",
+        "output": "goto:c2"
+      }
+    ]
+  },
+  "c1": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "So you are super versatile with metal, that is what we need with this screwed up situation our planet is in."
+      ],
+      [
+        0,
+        "Yeah, I've been welding since I was six. A lot of people have to make do with what they can find, back home, so I learned to make the shit other people throw away in to something worth using. Saving, even. Poverty is the mother of invention right?"
+      ],
+      [
+        1,
+        "Yeah, you are totally right. Am I glad I have you on the team! With that attitude we might just make it. Looking forward to working with you!"
+      ],
+      [
+        0,
+        "Likewise. If you need me, look in the shop or here, I'm not gonna be in an office unless I'm sleeping something off."
+      ],
+      [
+        1,
+        "Just follow the sound of the music, you'll find me."
+      ],
+      [
+        0,
+        "Hah, you would look trapped in a cubicle anyway! See you!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c2": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "So, can you actually get me the metals I need for this project or are you just into fancy scrap?"
+      ],
+      [
+        0,
+        "Wow, just jumping right to talking shit, huh. Of course some empty suit is running the show. Yeah, I can get you what you need, and more. I may not look it, Ivy League, but I have a degree in metallurgy. You manage to actually let me do my work, and I can get anything your project needs."
+      ],
+      [
+        1,
+        "Hey, that's what I care about. No reason to bitch at me, just wanted to make sure that you can get the job done, you know how high the stakes are, don't you?"
+      ],
+      [
+        0,
+        "Of course I do, that's why I'm here. I've been working in my dad's shop since I was little, most of what we did was for the people back home who couldn't afford anything but a shack to sleep in. It's bad enough now that people started sleeping with guns next to their beds for fear of getting robbed in the night, my family included."
+      ]
+    ],
+    "options": [
+      {
+        "text": "I shouldn't have been so stiff, sorry.",
+        "output": "goto:c3"
+      },
+      {
+        "text": "Well, with that background you'll get that we are in a bad spot...",
+        "output": "goto:c4"
+      }
+    ]
+  },
+  "c3": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Man, sorry to hear that. I shouldn't have been so stiff, sorry. Let's succeed with this project and make a better future for your family and all of humanity."
+      ],
+      [
+        0,
+        "Eh, don't worry, I'm still waking up. This place is kind of cramped, but I'm looking forward to working with you all on this. Maybe we can manage to at least stop the bleeding, yeah?"
+      ],
+      [
+        1,
+        "That'd be nice, so let's get this shit done! Looking forward to working with you! See you!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-5"
+      }
+    ]
+  },
+  "c4": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Well, with that background you'll get that we are in a bad spot, so at least you have experience."
+      ],
+      [
+        0,
+        "Exactly. I'm the best at what I do, and I've got the field experience along with the degree. Hopefully you've got more than words, Ivy League, considering you're running the show. You've already got two people giving each other the eye."
+      ],
+      [
+        1,
+        "Let that be my problem, small fry. Bye."
+      ],
+      [
+        0,
+        "Try not to let your ego smother you on the way out, Ivy League. Bye."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-10"
+      }
+    ]
+  },
+  "c5": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hey, Alex? Can I ask you something? I'm trying to figure out what type of roof would be best, any input?"
+      ],
+      [
+        0,
+        "Metal, easily. Anybody can set it up as long as they've got basic tools and a little bit of knowledge. You could put some flat pack furniture-style instructions in a kit for it and a bunch of kids could set it up over a weekend. And with the lifespan, their kids' kids will be the ones replacing it, not a bunch of fly-by-night roofers two years later."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Do you think it holds up environmentally for our purpose?",
+        "output": "goto:c6"
+      },
+      {
+        "text": "I'm not so sure.",
+        "output": "goto:c11"
+      }
+    ]
+  },
+  "c6": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "That's a good point. Do you think it holds up environmentally for our purpose?"
+      ],
+      [
+        0,
+        "Yeah, absolutely. Aside from the stuff I'd recommend is, like, 95% recycled, heavy duty and just about takes a tornado to tear off. Unless we're building bunkers for the army, it's a perfect choice. Just keep it repainted when the coating starts coming off, or replace a sheet of it if it gets pierced somehow. Easy."
+      ],
+      [
+        1,
+        "Wow, that does sound really good. Your expertise really comes in handy!"
+      ],
+      [
+        0,
+        "No problem! Glad to help. Just, uh, don't work on it during a thunderstorm or something. Great for album cover art, not so much for your health insurance."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Hah, that would make for an absolute murder cover though!",
+        "output": "goto:c7"
+      },
+      {
+        "text": "I'm not stupid, you know.",
+        "output": "goto:c8"
+      }
+    ]
+  },
+  "c7": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hah, that would make for an absolute murder cover though!"
+      ],
+      [
+        0,
+        "*throws the horns, smiling wide*"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c8": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "I'm not stupid, you know."
+      ],
+      [
+        0,
+        "Yyyyeah, I'm aware. It was a joke. Something wrong?"
+      ],
+      [
+        1,
+        "Just my health insurance, I guess."
+      ],
+      [
+        0,
+        "I know the feeling, I'm putting off getting my hand looked at because it costs too much. If you need me to patch anything small up, let me know."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Get over here, we'll have that looked at right away.",
+        "output": "goto:c9"
+      },
+      {
+        "text": "You really should take better care of yourself.",
+        "output": "goto:c10"
+      }
+    ]
+  },
+  "c9": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "What?! Get over here, we'll have that looked at right away. With the stupid payroll I'm getting I'm making sure to take care of my team!"
+      ],
+      [
+        0,
+        "Wait, we can do that? Shit, thank you."
+      ],
+      [
+        1,
+        "Yes, we can. This place might be bolted together from fallen down space stations, but we do have a medical facility. Let's get over there! And next time you tell me if you need something, okay?"
+      ],
+      [
+        0,
+        "Hell yeah, thank you. Maybe my knee will stop making that popping noise now..."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c10": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Seriously? You really should take better care of yourself. You are valuable to the team."
+      ],
+      [
+        0,
+        "I'll do what I can, but... Have you even looked around? This place is a labyrinth of bad choices. I went and got a tetanus booster when I first saw my workshop. Thank you, though. You do the same, alright?"
+      ],
+      [
+        1,
+        "Yeah, can't say much against that fact. See ya."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c11": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "I'm not so sure. Haven't we seen enough metal roofs fly off, with all the hurricanes lately?"
+      ],
+      [
+        0,
+        "That's the main problem with them, yeah, I'll freely admit that. You get a shit-nasty windstorm, and they might turn in to giant metal sails. Outside of that, the stuff I use is 95% recycled, easy as hell to put on, easy as hell to repair and replace, and if you take care of it right, it'll last half a century before it needs replacement. Hard to beat the price of a bucket of paint when it comes to roof maintenance."
+      ]
+    ],
+    "options": [
+      {
+        "text": "You're right, I think the advantages still beat the disadvantages.",
+        "output": "goto:c12"
+      },
+      {
+        "text": "I don't know.",
+        "output": "goto:c13"
+      }
+    ]
+  },
+  "c12": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "You're right, I think the advantages still beat the disadvantages. Thanks for the input."
+      ],
+      [
+        0,
+        "No problem, it's what I do. Beats the hell out of shingles when one of those freaky hail-based superstorms hit, I know that. Good talk."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": ""
+      }
+    ]
+  },
+  "c13": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "I don't know. I'll talk to the others to see what they think."
+      ],
+      [
+        0,
+        "Go for it, the roof is one of the most important parts of the structure. Walls are great until a storm hits. We want something that'll stand up to mother nature trying to slaughter us in the night."
+      ],
+      [
+        1,
+        "I said I'll think about it. Okay, see you."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-5"
+      }
+    ]
+  },
+  "c14": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hi, Alex! I thought it might be good to get to know each other a bit better. So, what do you like to do when not working?"
+      ],
+      [
+        0,
+        "Uh. Well, I like to read some. I make things, sometimes, if I have the stuff to do it with. We don't really have the space for anything I normally do, but I can do some of the smaller things. I can't really weld together carhenge outside, right? I've been doing a lot of flowers, recently."
+      ]
+    ],
+    "options": [
+      {
+        "text": "That sounds nice, can I see some of them?",
+        "output": "goto:c15"
+      },
+      {
+        "text": "I thought you went for the metal chick vibe, not emo.",
+        "output": "approval:+10,goto:c20"
+      }
+    ]
+  },
+  "c15": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Flowers? That sounds nice, can I see some of them?"
+      ],
+      [
+        0,
+        "Uh, sure. Nobody really asks to see them, much. I made some earlier today, actually, we had some scrap left over that wouldn't be seeing any use otherwise, so I made a few roses, a couple of tulips... That kind of thing."
+      ],
+      [
+        1,
+        "Wow, that is amazing. How did I not know you could do this?"
+      ],
+      [
+        0,
+        "*proceed to show Hero their creations, delicate things made out of sheets of metal. Though the thorns on the roses are usually a little over an inch in length*"
+      ],
+      [
+        0,
+        "Most people don't ask. *shrug* A lot of people think I'm all roaring and sound and fury, which is usually fine by me. But I do have a softer side, on occasion. That, and I didn't want people to think I was wasting resources. I make sure to use stuff that's otherwise unusable, but they probably wouldn't ask that."
+      ],
+      [
+        1,
+        "Of course you have more than one side to you, you are a human being, not a stereotype. And a talented human being at that."
+      ],
+      [
+        0,
+        "I, uh. Thanks? Nobody's really said that before unless I'd built them a roof or armored their taxi up or something. You do good work, too. Seriously, thank you."
+      ],
+      [
+        1,
+        "My pleasure! You've been great to work with and I don't see why we can't be friendly with each other. Just because we're a bit stuck in here doesn't mean we have to run it like a prison."
+      ],
+      [
+        0,
+        "Right? We might as well be civil, at least. Infighting ends with some kind of Lord of the Flies situation, and I really don't want to end up in a fistfight with anybody. I mean, I'd probably win, but that doesn't mean I'd enjoy it."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Do you agree with its message about human nature?",
+        "output": "goto:c16"
+      },
+      {
+        "text": "There is an artist under all that metal after all!",
+        "output": "goto:c17"
+      }
+    ]
+  },
+  "c16": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "You read Lord of the Flies? Do you agree with its message about human nature?"
+      ],
+      [
+        0,
+        "I agree with its specific message about a bunch of super-privileged teenage boys being left to their own devices in an environment designed to breed toxic masculinity, yeah. Not about humanity as a whole, not by a long shot. Otherwise we'd have killed ourselves off ages ago."
+      ],
+      [
+        1,
+        "Wow, I totally agree with you! That was a nice analysis right there. Hey, how about we grab a coffee and discuss a bit about our favorite philosophical books?"
+      ],
+      [
+        0,
+        "I could go for coffee and company, let's do it. Lead the way!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+15"
+      }
+    ]
+  },
+  "c17": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "First flowers and then philosophical books? There is an artist under all that metal after all!"
+      ],
+      [
+        0,
+        "Damn right. You should see what I can do with some actual -space-. I can win a debate and built a twelve foot wrought iron gate in the same day."
+      ]
+    ],
+    "options": [
+      {
+        "text": "That is kind of dreamy...",
+        "output": "goto:c18"
+      },
+      {
+        "text": "That's a challenge!",
+        "output": "goto:c19"
+      }
+    ]
+  },
+  "c18": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "That is kind of dreamy... ahem, I think I need to go. Bye!"
+      ],
+      [
+        0,
+        "Fair enough. See about hooking me up with some coffee while you're out, would ya?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c19": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "That's a challenge! When we succeed with this project you are so on!"
+      ],
+      [
+        0,
+        "Done and done. Ivy motif on the gate and whatever you like for the topic. I haven't had that kind of fun since college."
+      ],
+      [
+        1,
+        "Looking forward to it! Thanks for the talk, see you later."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c20": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Flowers?! I thought you went for the metal chick vibe, not emo."
+      ],
+      [
+        0,
+        "You've... never actually seen a metal album beyond the mainstream, have you. Unsurprising, I guess. Also, wrong pronoun. They/them, not she/her. Easy mistake to make, everybody gets one."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Heh? Wrong pronoun?",
+        "output": "goto:c21"
+      },
+      {
+        "text": "Oh, sorry, wasn't aware of your gender identity.",
+        "output": "goto:c24"
+      }
+    ]
+  },
+  "c21": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Heh? Wrong pronoun? What do you mean?"
+      ],
+      [
+        0,
+        "Oh lord, here we go. I don't identify as male or female. The term is genderqueer, in my case."
+      ],
+      [
+        1,
+        "That's a thing?"
+      ],
+      [
+        0,
+        "It's been a thing for multiple centuries, yeah. Like, multiple multiple centuries. Across multiple cultures. Buuuut it has nothing to do with my skillset, so it's kind of a moot point, overall. I can explain more later, if you really want?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "Yes, please.",
+        "output": "goto:c22"
+      },
+      {
+        "text": "Nah, I think I heard all I ever wanted to hear on that topic.",
+        "output": "goto:c23"
+      }
+    ]
+  },
+  "c22": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Yes, please. I would like to know my team-mates well enough to be respectful and this is important to you, right?"
+      ],
+      [
+        0,
+        "It is, actually, yeah. Most people kind of side-eye me, if not worse. As long as you don't start asking about who I like to screw or what I have in my pants. That's a one-way ticket to us not talking civilly again."
+      ],
+      [
+        1,
+        "That being said... yeah, let's talk."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c23": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Nah, I think I heard all I ever wanted to hear on that topic. So, eh, see you."
+      ],
+      [
+        0,
+        "Fair enough, I guess. At least you weren't shitty about it. See you."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-5"
+      }
+    ]
+  },
+  "c24": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Oh, sorry, wasn't aware of your gender identity. They/their it is. But seriously, flowers? I thought you'd be making metal dinosaurs or something."
+      ],
+      [
+        0,
+        "Eh, I did a lot of those in college. No challenge, though. I'm more into the precision stuff, now. And... well, it's nice to bring a little beauty into the world now and then, you know what I mean?"
+      ],
+      [
+        1,
+        "You are talking to an architect, so yeah, I guess I know what you mean."
+      ],
+      [
+        0,
+        "Right, exactly. The world has enough ugliness in it already, making it a little prettier here and there makes everyone's life a lot nicer. Besides, the materials aren't gonna see anything but a recycling center otherwise."
+      ],
+      [
+        1,
+        "Can't argue with that. Okay, it was nice talking to you. See you later."
+      ],
+      [
+        0,
+        "Likewise, good talk. See you."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c25": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hey, Alex. What would you say if, hypothetically of course, I might have gotten you some fancy coloured metal so that you could make some flowers?"
+      ],
+      [
+        0,
+        "I'd hypothetically be intrigued, curious about both what metal you got, and what made you think of me, especially to do something like that for me. And I'd hypothetically be really, really thankful, because I'm bored out of my skull."
+      ]
+    ],
+    "options": [
+      {
+        "text": "I would like to sit in while you make your art.",
+        "output": "goto:c26"
+      },
+      {
+        "text": "Maybe I wanted to give you flowers...",
+        "output": "goto:c27"
+      },
+      {
+        "text": "Well, I thought our last conversation went somewhat sideways.",
+        "output": "goto:c28"
+      }
+    ]
+  },
+  "c26": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Just maybe I was thinking that you would like it and that I am really fascinated by your art, so I would like to sit in while you make it."
+      ],
+      [
+        0,
+        "Well, you guessed right. I don't often get much appreciation for it, so I'd be more than happy to have someone sit in. You're alright, you know that?"
+      ],
+      [
+        1,
+        "And you are alright, too! Friends?"
+      ],
+      [
+        0,
+        "Definitely. You're civil, you appreciate good art when you see it, and you haven't given me much shit about my music. As far as I'm concerned, we're best friends."
+      ],
+      [
+        1,
+        "*offers fist for fist bump* I can totally live with that assessment. So, show me your metal magic?"
+      ],
+      [
+        0,
+        "*fist bump emphatically returned* Hell yeah. Just... grab some goggles. Looking at the flash is like looking at the sun, in the literal sense. It will blind you."
+      ],
+      [
+        1,
+        "You mean if the smog wasn't so bad, heh. *grabs goggles*"
+      ],
+      [
+        1,
+        "And thus, with bright flashes of light, liberal use of snips and occasional bouts of swearing and hammering, art takes form."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c27": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Well, there aren't many actual flowers left out there and I suck at making them myself... so maybe I just invented the most roundabout way of giving you flowers..."
+      ],
+      [
+        0,
+        "*With a clatter, the wrench they had in their hand drops* I, er. Oh my God. I. Wait, seriously? As in, like. Giving someone a bouquet of flowers? To me?"
+      ],
+      [
+        1,
+        "Too cheesy? Sorry, ehm, I hope you still like the metal I got you, it, ehm, is all sparkly."
+      ],
+      [
+        0,
+        "No, no! You misunderstand. I just, like. Nobody's done anything like that for me in years. I'm kind of flattered. Really. Yes, by the way."
+      ],
+      [
+        1,
+        "Does that mean I didn't just totally blow my chances that you will date me?"
+      ],
+      [
+        0,
+        "Well, I'm not saying yes to some ill-conceived prank, I assume. Considering I have a wrench and you're not dumb. Let's go, right now."
+      ],
+      [
+        1,
+        "Hell yes, let's go right now! Before I put my foot any deeper in my mouth..."
+      ],
+      [
+        0,
+        "Relaaaaax. Like I said, you're fine. I'm just way, way out of practice with this sort of thing."
+      ],
+      [
+        1,
+        "Guess we need to practice then... I think I can live with having to train that."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+15,romance:true"
+      }
+    ]
+  },
+  "c28": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Well, I thought our last conversation went somewhat sideways, so to show that I do not think that all metal flowers are stupid I thought it would make sense to get you this."
+      ],
+      [
+        0,
+        "Wow, that's... really cool of you, actually. I appreciate it. I can show you how they're made later, if you're curious. God knows I should be able to do something cool with it."
+      ],
+      [
+        1,
+        "No, I have other things to do, but as long as you keep this in your free time I think it's fine."
+      ],
+      [
+        0,
+        "Eh, yeah, the process is kind of mind-numbing if you don't understand what's actually going on. Thanks, though, seriously."
+      ],
+      [
+        1,
+        "Good, that way we can keep on with our important work. See you later then."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-5"
+      }
+    ]
+  },
+  "c999": {
+    "index": 0,
+    "participants": [
+      "Alex"
+    ],
+    "conversation": [
+      [
+        0,
+        "Hi again, do you need something?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "Yes, please gather materials for me.",
+        "output": "goto:c1000"
+      },
+      {
+        "text": "No, just saying hi",
+        "output": "goto:c1001"
+      }
+    ]
+  },
+  "c1000": {
+    "index": 0,
+    "participants": [
+      "Alex"
+    ],
+    "conversation": [
+      [
+        0,
+        "Sure thing!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "resources:fetch"
+      }
+    ]
+  },
+  "c1001": {
+    "index": 0,
+    "participants": [
+      "Alex"
+    ],
+    "conversation": [
+      [
+        0,
+        "Oh hi!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,1626 @@
+{
+  "af0": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "Fayruz"
+    ],
+    "conversation": [
+      [
+        1,
+        "Oh! Hello there!"
+      ],
+      [
+        0,
+        "Oh, uh, hey there. I'm guessing you're on the team, too?"
+      ],
+      [
+        1,
+        "I certainly am! My name is Fayruz, and you are...?"
+      ],
+      [
+        0,
+        "Alex, metal specialist. There any beer in here? I didn't get a chance to get a mini fridge in the workshop yet."
+      ],
+      [
+        0,
+        "Nice to meet you, by the way."
+      ],
+      [
+        1,
+        "Nice to meet you too... I don't know if there's any beer, I haven't looked. I was just about to make a cup of tea, though! Would you like some?"
+      ],
+      [
+        0,
+        "Tea works! I'm not gonna be working for a bit anyhow, no need to start too early. What do you do, electronics? Chemistry?"
+      ],
+      [
+        1,
+        "Glass and stone, actually! I'm just fascinated by the variations of both--they're so much more diverse than people give them credit for."
+      ],
+      [
+        1,
+        "Would Russian morning suit you?"
+      ],
+      [
+        0,
+        "...I try to avoid anything Russian out of habit, thanks. It's depressing. Especially their literature. What kind of tea are you making?"
+      ],
+      [
+        1,
+        "Er, that's the name of the tea. Russian morning. It's a black tea, a bit like a stronger English breakfast?"
+      ],
+      [
+        0,
+        "That'll work then. So, glass and stone, right? You and I should probably collaborate, then. I handle metallurgy, the two kind of go hand-in-hand."
+      ],
+      [
+        1,
+        "I would be happy to! Honestly, I've always been a bit curious about working with metal--there are so many artistic possibilities with it. Perhaps I could pick up a few things while working with you."
+      ],
+      [
+        0,
+        "Someone that gets it, finally! Bring your tea and meet me in the shop, I have things to show you. Just... ignore the music. I'm gonna go find a mini-fridge if it kills me."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "af1": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "Fayruz"
+    ],
+    "conversation": [
+      [
+        0,
+        "Hey! Glad you're here, I wanted to show you something. Check it out. Wrought iron rose."
+      ],
+      [
+        1,
+        "Oh my goodness, that's lovely! How long did it take you to make?"
+      ],
+      [
+        0,
+        "I, uh... I never really thought about it. I get zoned in on work and kind of lose track, actually."
+      ],
+      [
+        1,
+        "Well, it is marvellously done... I wonder."
+      ],
+      [
+        1,
+        "Do you think it would be possible to... hm, sort of 'fix' little panels of colored glass into a metal framework? Sort of like a three-dimensional stained glass rose."
+      ],
+      [
+        0,
+        "...Yes. Yes, I do. Step in to my office, I think we can make an entire bouquet. I like the way you think, Fayruz."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "af2": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "Fayruz"
+    ],
+    "conversation": [
+      [
+        1,
+        "Oh, Alex! Just the person I wanted to see!"
+      ],
+      [
+        0,
+        "I didn't do it. Just putting that out there. I was in my workshop the whole time, the camera footage proves it."
+      ],
+      [
+        1,
+        "Oh, I know you didn't. *grin*"
+      ],
+      [
+        0,
+        "...Okay, you're gonna have to tell me what this is about, because I think we're thinking of different things."
+      ],
+      [
+        0,
+        "Coincidentally, don't go in my workshop for a couple of hours. If you do, wear a breather mask."
+      ],
+      [
+        1,
+        "Er, duly noted. In any case, I thought you were referring to Tsai's rosebombing. ANYWAY."
+      ],
+      [
+        1,
+        "I actually wanted to talk to you about possibly upgrading my chair a bit?"
+      ],
+      [
+        0,
+        "Rose...bombing. ...THAT WAS YOU. I'm impressed, I gotta say. What kind of upgrade are you thinking?"
+      ],
+      [
+        1,
+        "Hehe, thanks!"
+      ],
+      [
+        1,
+        "I actually have a few sketches here..."
+      ],
+      [
+        0,
+        "...Do I want to know why you're rigging up a war wagon using a wheelchair? Are you gonna need a metal arm, too? I can do both, I just need to know in advance."
+      ],
+      [
+        0,
+        "You're gonna need a better chair, which I can also rig up. Give me a little time and you'll have something road-legal."
+      ],
+      [
+        1,
+        "Oh, no arm needed. Yet."
+      ],
+      [
+        1,
+        "Really? Thank you, that would be wonderful!"
+      ],
+      [
+        1,
+        "As for why... Right now, I'm just hedging my bets, as it were."
+      ],
+      [
+        1,
+        "After all, Tsai's going to find out who did it sooner or later."
+      ],
+      [
+        0,
+        "Just... warn me if I'm going to end up painted white and working on the engine on the move or something."
+      ],
+      [
+        1,
+        "Oh, naturally. I doubt it'll come to that."
+      ],
+      [
+        0,
+        "Well, praise be, then. Let's get to work."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "aj0": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "Jacques"
+    ],
+    "conversation": [
+      [
+        0,
+        "*digging through a recent goods shipment, looking for something* You'd think they would label something like saw blades to make them stand out a little. Then again, that would be -smart-."
+      ],
+      [
+        1,
+        "They probably think you'll know you found them when you cut yourself on them."
+      ],
+      [
+        0,
+        "Yeah, probably. You're one of the people helping with the project, right? I'm Alex, I handle metallurgy."
+      ],
+      [
+        1,
+        "Je suis Jacques. The wood guy. I guess that makes us mortal enemies, or something."
+      ],
+      [
+        0,
+        "I don't know, going by astrological terms we're kind of even. Besides, it takes hickory to make a hammer."
+      ],
+      [
+        1,
+        "You do not really believe any of that astrology crap, I hope?"
+      ],
+      [
+        0,
+        "Maybe I do, maybe I don't. I'm a mystery like that. Do you always go after what might be someone's beliefs like that, or did you have a bad flight?"
+      ],
+      [
+        1,
+        "I like to know what I'm dealing with. If you believe in one pile of BS, I have to watch out what else will cloud your judgment."
+      ],
+      [
+        0,
+        "Gonna chalk this up to a bad flight. Tell me if you find any chop saw parts when you're digging through the shipment, would you? Thanks in advance!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "aj1": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "Jacques"
+    ],
+    "conversation": [
+      [
+        1,
+        "*walks into the metal workshop area, knocking on the door frame* Bonjour. Do you have a minute?"
+      ],
+      [
+        0,
+        " I have several, I'm waiting on something to cure. What can I do for you?"
+      ],
+      [
+        1,
+        "I have this Swedish chainsaw that needs a bit of maintenance and those Vikings use the strangest screws to hold it together. I was hoping you have a drawer of screw bits that made you say WTF when you looked at them for the first time."
+      ],
+      [
+        0,
+        "No, but I probably have the bit to work with them, and given enough time I can 3D print exact copies if you need replacements or spares. Because really, who charges twenty bucks for a six pack of screws?"
+      ],
+      [
+        1,
+        "Amen. I'll get the saw over here... about the 3D printing: Will those things hold as well as the originals? There is a lot of vibration going on in these saws."
+      ],
+      [
+        0,
+        "That's part of why I use it. I have an industrial printer, I can laser scan those and have copies before the end of the day. Not really good for mass production, but you aren't selling them or anything. They'll probably be a better grade of metal, in fact, I don't go cheap. *said while sitting on a stool made of upcycled pipe and upholstery*"
+      ],
+      [
+        1,
+        "*fake-sighs* There go the plans for my strange Viking screw empire. I'll get the saw."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "aj2": {
+    "index": 0,
+    "participants": [
+      "Alex",
+      "Jacques"
+    ],
+    "conversation": [
+      [
+        1,
+        "*has one of the 3D printed screws in a vise and is banging on it with a hammer*"
+      ],
+      [
+        0,
+        "Do... I want to know what the hell you're doing? Because that's not how you do that. Whatever it is you're doing, it's not."
+      ],
+      [
+        1,
+        "Erm... I guess there is no nicer way to say this: I did not believe that the screws will hold up as well as you said. So I took a spare one and conducted some testing."
+      ],
+      [
+        0,
+        "And it looks like it's holding up about as well as advertised. I don't blame you, even now the tech seems weird to me."
+      ],
+      [
+        1,
+        "This is not la partie intéressante. I did something more scientific over here. I found that the printed parts do seem to hold up a fair bit better against axial forces - but it also seems to be susceptible to shearing. Of course I only have a small sample size here. I didn't want to waste more screws. But it might be something worth looking into. *holds up a bunch of sheared off screw pieces*"
+      ],
+      [
+        0,
+        "Yeah, considering how much crap I use these for, it does. ...Though I did just have a thought on how to fix that. You're a genius. I can make molds of them. Solid, single-piece construction."
+      ],
+      [
+        1,
+        "\"Genius\" is something I get called rarely, believe it or not. You seem like you want to get started on the molds right away, but I do have cold bière over there. *points to a fridge labeled 'beer only'* If you should want one later."
+      ],
+      [
+        0,
+        "And that is why you and I get along. You know how to treat a person, generally. Thanks for that, by the way. Mine is underneath the drawing table in the metal shop if you ever need one."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "dj0": {
+    "index": 0,
+    "participants": [
+      "Didara",
+      "Jacques"
+    ],
+    "conversation": [
+      [
+        1,
+        "*walks into the kitchen area around noon* Hey, comment vas-tu? Is there any space left in the fridge? I need a place to put my two four and my workshop fridge has not arrived yet."
+      ],
+      [
+        0,
+        "*looks up from her book, startled.* Um, I think so? I haven't checked..."
+      ],
+      [
+        1,
+        "*starts putting beer cans into the fridge* What are you reading?"
+      ],
+      [
+        0,
+        "*confused for a moment to still be in the conversation* Oh! It's a classic, Good Omens by Terry Pratchett and Neil Gaiman. Maybe you've heard of it? It's quite funny. They were both great authors, even though they had very different styles. I have almost all of their work. If you're a reader, I'd be happy to share! "
+      ],
+      [
+        1,
+        "Hm... never heard of them. But I am not much of a fiction reader, pour être honnête. I read mostly non-fiction stuff. What is the book about? *keeps putting beer in the fridge*"
+      ],
+      [
+        0,
+        "Well, it's about... a lot of different things. Armageddon, religion, humor, the Antichrist, prophecy, witchcraft, love, divinity..."
+      ],
+      [
+        1,
+        "All the things that make life interesting, eh? *finishes putting beer in the fridge* If anybody complains about the beer, tell them I will take care of it asap. And feel free to take one. See you around."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "dj1": {
+    "index": 0,
+    "participants": [
+      "Didara",
+      "Jacques"
+    ],
+    "conversation": [
+      [
+        1,
+        "*walks out of the gym, past the shared area, looking angry*"
+      ],
+      [
+        0,
+        "*glances out of her room to see who's walking by* Whoa, you ok? *blushes*"
+      ],
+      [
+        1,
+        "*stops dead in his tracks* *thinks for a moment* *walks into Didara's room and closes the door* I need someone to vent, if you don't mind..."
+      ],
+      [
+        0,
+        "*looks momentarily startled* Sure, go ahead. I'm a good listener."
+      ],
+      [
+        1,
+        "That's good. Tsai is really getting on my nerves lately. He is such a know-it-all... if it goes on like that, he's going to get hit by a sack of bricks. *knocks his fist into his open hand*"
+      ],
+      [
+        0,
+        "*tilts her head* What's going on? What did he do?"
+      ],
+      [
+        1,
+        "He just cannot keep his mouth shut. Whatever it is, he has to comment. The less he knows what he is talking about, the more he keeps babbling."
+      ],
+      [
+        0,
+        "*grimaces and rolls eyes* That is incredibly annoying. He hasn't done that to me, but it doesn't seem out of character, either. I wonder why he reacted that way to you, though, and not to me…"
+      ],
+      [
+        1,
+        "I'm pretty sure I have a good idea why, mais qui n'a pas d'importance. The thing is, I could not keep out of his way if I wanted to."
+      ],
+      [
+        0,
+        "That does compound the problem, doesn't it? I mean, you're right, the why isn't so important, but you have to be able to work together at least. *Frowns thoughtfully and pulls legs up onto the chair*"
+      ],
+      [
+        1,
+        "I could invite him for a beer to sort things out, but I don't feel like wasting perfectly good beer on that hoser. *grins*"
+      ],
+      [
+        0,
+        "*laughs* Well, fair enough, I suppose. Still, if it'll stop him being ridiculous to you, I'll provide the beer. *sighs wistfully with a faint smile* People are so complicated."
+      ],
+      [
+        1,
+        "I guess we are... hey, thanks for listening. You really are a good listener. Maybe I'll come back to the beer offer. See you around."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "dj2": {
+    "index": 0,
+    "participants": [
+      "Didara",
+      "Jacques"
+    ],
+    "conversation": [
+      [
+        1,
+        "*knocks on the door frame of Didara's room while walking in* *has a few obvious bruises and is limping slightly* Hey Didara. Do you have a moment? I have done some research about this wood based plastic you mentioned at the last meeting. Maybe there is more to it than I initially thought."
+      ],
+      [
+        0,
+        "*glances up briefly and does a double-take* What happened to you?! Are you ok?"
+      ],
+      [
+        1,
+        "It's nothing. I'm surprised you haven't heard. Me and Tsai had a little... exchange..."
+      ],
+      [
+        0,
+        "WHAT? *stands up outraged* How... but... that is NOT RIGHT! *moves toward the door as if intending to give Tsai a piece of her mind right now*"
+      ],
+      [
+        1,
+        "Attendre! What exactly do you think you are doing?"
+      ],
+      [
+        0,
+        "This is not acceptable behavior. I can't believe he'd be this stupid. We have to work together and he's picking fights!"
+      ],
+      [
+        1,
+        "To be fair, he pretty much asked me to do it, but I hit him first. He doesn't look much better than me and we decided to leave it before someone got seriously hurt. And I do feel better now."
+      ],
+      [
+        0,
+        "*expression of anger and disgust* *takes a deep breath and visibly settles* Well. It's still stupid. And yes, that includes you for participating."
+      ],
+      [
+        1,
+        "You won't hear me disagree and I can promise you that this will not become a regular occurrence. Sit down. S'il tu plais."
+      ],
+      [
+        0,
+        "Fine. Just... *sighs before giving Jacques a penetrating stare* Now, you were asking about plastics?"
+      ],
+      [
+        1,
+        "Yes, I was asking about plastics. And that is a confession you will not get from me every day."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "dt0": {
+    "index": 0,
+    "participants": [
+      "Didara",
+      "Tsai"
+    ],
+    "conversation": [
+      [
+        1,
+        "*finishing setting up his equipment and computers*"
+      ],
+      [
+        0,
+        "Hi! I'm Didara, plastics. What's your specialty?"
+      ],
+      [
+        1,
+        "*glances up for but a second before going back to his work* Give me a moment..."
+      ],
+      [
+        0,
+        "*nods and peers around, occasionally poking at something interesting*"
+      ],
+      [
+        1,
+        "The name is Tsai. I'm in charge of utilities acquisitions. *gives her a once over, a twitch of one corner of his mouth shows some disapproval at what he sees* I take it you got the call from the UN last minute?"
+      ],
+      [
+        0,
+        "Hi, Tsai. Nice to meet you. Last minute? No, it was about two weeks ago."
+      ],
+      [
+        1,
+        "Right. I take it you at least understand the gravity of the situation. This is a very important undertaking, with grave consequences if we don't take this with the seriousness it deserves. *pauses for a moment to let that sink in* Anyway, I take it you need something?"
+      ],
+      [
+        0,
+        "Well, of course it's serious. The fate of the human race is in the balance, after all. Mostly I just wanted to introduce myself. We'll all be working very closely, after all… If I'm bothering you, I can leave."
+      ],
+      [
+        1,
+        "*hesitates and closes his eyes with a slight sigh* No, you're not; I was just finishing up. And you're right. We should know who we are working with. *rises from his desk with a certain amount of controlled grace, and offers his hand* Pleased to be working with you."
+      ],
+      [
+        0,
+        "*shakes his hand, slightly hesitant* Nice to meet you. What do you do for fun?"
+      ],
+      [
+        1,
+        "Fun? I am not here to take a vacation. Though I suppose my martial arts training can be enjoyable. There is supposed to be a fitness area in this facility, right?"
+      ],
+      [
+        0,
+        "Yes. Fun. You know, the things you do when you're not working, to recharge? Well, martial arts are pretty useful. I think I heard something about a gym. I was more interested in the technology, honestly."
+      ],
+      [
+        1,
+        "Oh the tech? State of the art, actually, some of which I've put together myself. 24 core processor, the latest (Axis) motherboard, 1024 gbs of ram, and the fastest pipes we can get as far as internet is concerned. Working for the UN has its advantages."
+      ],
+      [
+        0,
+        "Perfect. And the big-screen monitors will make the Doctor look fantastic."
+      ],
+      [
+        1,
+        "Doctor?"
+      ],
+      [
+        0,
+        "*snorts* You know. The Doctor. You don't know Doctor Who? *looks skeptically at him, conveying a slight geekish superiority* You totally have to watch. He's awesome."
+      ],
+      [
+        1,
+        "This is for work, not for entertainment!"
+      ],
+      [
+        0,
+        "It's for living. We can't work ALL the time. If we don't have downtime, we'll lose it, and that's not good for anyone."
+      ],
+      [
+        1,
+        "Good point, but there are more responsible ways to do that. But I have to stress, this here is for work. We are not going to be watching movies and TV shows with this equipment."
+      ],
+      [
+        0,
+        "Uh huh. Well, you keep thinking that. I'll let you get back to your work."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "dt1": {
+    "index": 0,
+    "participants": [
+      "Didara",
+      "Tsai"
+    ],
+    "conversation": [
+      [
+        0,
+        "*leaning back in her chair in her office, watching an episode of Doctor Who, the area shows evidence of a slightly messy personality*"
+      ],
+      [
+        1,
+        "*taken aback by what he sees* Look at this mess! Why is there popcorn on the floor and the desk and... what is that on the screen?"
+      ],
+      [
+        0,
+        "*jumps and hits the pause button, landing on a particularly odd frame* Tsai! I... um… I'm taking a break, letting my brain recharge! *tries to unobtrusively shove some of the popcorn into a pile* That's the Doctor. Remember? I told you about him? He saves humanity, a lot. It's inspirational!"
+      ],
+      [
+        1,
+        "What? Did you need pointers?"
+      ],
+      [
+        0,
+        "This is my work area, thank you very much, and yes. I did. I needed inspiration. I needed hope. This is a huge responsibility! I need reminders that it's worth all this work and frustration!"
+      ],
+      [
+        1,
+        "And just how inspirational is this?"
+      ],
+      [
+        0,
+        "Very, it reminds me that there's always a way, even if we can't see it yet. There's hope, and sometimes thinking differently, being less concerned about appearances than results, is what makes the difference."
+      ],
+      [
+        1,
+        "Well, when appearances show one's level of professionalism, I'd think it would be important. *looks at the paused screen for a moment* Honestly, I don't see the cause for the obsession..."
+      ],
+      [
+        0,
+        "Professionalism is what you do, not how you look. *rolls her eyes and sits down, pressing play* Just watch for a while. One episode and you'll understand."
+      ],
+      [
+        1,
+        "It's just a TV show. Really, it can't be all you say it... *happens to hear some of the dialogue, then addresses the doctor on the screen* Well of course they messed it up, most people ARE that stupid."
+      ],
+      [
+        0,
+        "*smirks and leans back* Popcorn?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "dt2": {
+    "index": 0,
+    "participants": [
+      "Didara",
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        2,
+        "*finds Tsai and Didara watching Dr. Who on the big conference screen*"
+      ],
+      [
+        1,
+        "Oh... Hi Hero. We were just taking a break and watching a couple of episodes. Not bad, really, you should give it a go when you have the chance. Was there something you needed?"
+      ],
+      [
+        0,
+        "Oh, hi, Hero! Come watch with us! There's plenty of room!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "Don't you think we have better things to do?",
+        "output": "goto:dt3"
+      },
+      {
+        "text": "Ooh, that looks nice on the big screen!",
+        "output": "goto:dt4"
+      }
+    ]
+  },
+  "dt3": {
+    "index": 0,
+    "participants": [
+      "Didara",
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        2,
+        "Really? Down-time? In the conference room? Don't you think we have better things to do? There is a world to save out there!"
+      ],
+      [
+        0,
+        "We can't save it if we're so burned out by work we start making mistakes."
+      ],
+      [
+        2,
+        "Burn out? That's an excuse."
+      ],
+      [
+        2,
+        "I thought you were better than that, Tsai. Where is the \"seriousness\" of the situation now?"
+      ],
+      [
+        1,
+        "*sighs* I understand, sir. Though might I remind you that up till now I have not failed you in any of the tasks I was assigned, and even now, I still have several transactions going on in the background. Still, if you feel this goes against protocol, I'll make sure it won't happen again."
+      ],
+      [
+        1,
+        "*shakes her head and pauses the video with a sigh*"
+      ],
+      [
+        2,
+        "Good to see we are getting back on track. Now clean this up and either get back to work or sleep."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "m.approval:tsai.-5;didara.-10"
+      }
+    ]
+  },
+  "dt4": {
+    "index": 0,
+    "participants": [
+      "Didara",
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        2,
+        "Ooh, that looks nice on the big screen! What did I miss?"
+      ],
+      [
+        0,
+        "*offers popcorn* Well, the Doctor got kidnapped, and..."
+      ],
+      [
+        1,
+        "That happens a lot, actually. Anyway, you are free to pull up a chair sir, if you wish. We can continue watching once we get done what you needed from me."
+      ],
+      [
+        2,
+        "That can wait until after the episode, we are in more enough stress already and the way I know you, there are several processes running in the background anyway."
+      ],
+      [
+        1,
+        "*smiles* Right. Well let's see how he gets out of this one."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "m.approval:tsai.+10;didara.+10"
+      }
+    ]
+  },
+  "fj0": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "Jacques"
+    ],
+    "conversation": [
+      [
+        1,
+        "Fayruz, do you have a minute?"
+      ],
+      [
+        0,
+        "Hm? Oh, certainly Jacques! What's on your mind?"
+      ],
+      [
+        1,
+        "I've got this idea how to reduce rot on wooden window frames. It does somewhat depend on shaping the glass pane in a, let's say non-traditional, way. It could also look pretty rad, but that is just a side effect. The thing is I don't know enough about glass to figure out where the dividing line between stupid and great runs within this idea. Could you take a look at these drafts and give me an educated guess if this is worth pursuing?"
+      ],
+      [
+        0,
+        "I would be delighted to! It sounds like a fascinating idea--form following function in the best of ways. May I?"
+      ],
+      [
+        1,
+        "*hands over a pretty battered write-in-the-rain sketchbook* Regarde, we usually have a problem in this area. Water gets caught on the seal here. If it was possible to shape the glass in a way that it creates an overlap here, we would probably get away with far less maintenance, especially on windows in the roof. It obviously creates a notch that concentrates stress but I cannot do the calculations on my chainsaw, eh?"
+      ],
+      [
+        0,
+        "*examines the drawings curiously* I'm afraid I'm not quite enough of an engineer to say... though it is definitely worth researching. Would you mind if I did a little homework on window construction and get back to you?"
+      ],
+      [
+        1,
+        "Hey, that's all I hoped to hear. You can come by the wood shop any time if you need anything. Not just concerning this. Or you can call me over, of course. See you later."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "fj1": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "Jacques"
+    ],
+    "conversation": [
+      [
+        1,
+        "*working on a wood sculpture but turns chainsaw off when he notices Fayruz* Fayruz! Nice to see you. What brings you to my little workshop of horrors? *grins*"
+      ],
+      [
+        0,
+        "*looking behind her* Oh, I just need a place to linger for a few moments. Somewhere... unexpected... Oh! What are you working on?"
+      ],
+      [
+        1,
+        "Well, it is going to be an owl when I'm done. I want to make it look like it is sitting on the tree stump I am carving it out of. See... *hands over a drawing*"
+      ],
+      [
+        0,
+        "*looks over the drawing* Oh my, this is lovely... You really are quite a good artist, Jacques! With wood and pencil."
+      ],
+      [
+        1,
+        "One of the perks of working with wood is that I get a lot of compliments about my wood. Hehe... do you want to tell me what you are hiding from? It is okay if not."
+      ],
+      [
+        0,
+        "Oh, I just made a few... improvements... to the conference room. And Tsai can be so particular! It seemed like a good idea to lay low a while."
+      ],
+      [
+        1,
+        "Oh, you can hide here from Tsai all... well, forever, if you like. The guy is a real pain in the derrière. And chances of him coming here are really low. Like, really, really, low. We don't exactly get along, if you haven't caught that yet."
+      ],
+      [
+        0,
+        "*laughs* I had heard as much. Thank you for the offer of sanctuary!"
+      ],
+      [
+        1,
+        "If you feel like grabbing a beer or a chainsaw for entertainment, fais comme chez toi."
+      ],
+      [
+        0,
+        "I'm afraid I wouldn't know what to do with either... also that sounds like quite a volatile combination."
+      ],
+      [
+        1,
+        "It is not exactly within the rules and regulations... hey, have you ever seen a beer bottle being opened with a chainsaw?"
+      ],
+      [
+        0,
+        "Why no. No, I haven't. Am I about to? *grins*"
+      ],
+      [
+        1,
+        "Hell yes."
+      ],
+      [
+        0,
+        "Excellent!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "fj2": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "Jacques"
+    ],
+    "conversation": [
+      [
+        0,
+        "*knock knock*"
+      ],
+      [
+        1,
+        "Come in!"
+      ],
+      [
+        0,
+        "*lets herself in, a tray with a travel mug and a plate of cookies on her lap* I heard you had an interesting day."
+      ],
+      [
+        1,
+        "One could say that."
+      ],
+      [
+        0,
+        "How are you feeling?"
+      ],
+      [
+        1,
+        "Pretty okay. I'm used to bruises and it has not been my first fight."
+      ],
+      [
+        0,
+        "Well, I brought you some tea and cookies, if you'd like?"
+      ],
+      [
+        1,
+        "I really hoped you would say that. Merci."
+      ],
+      [
+        0,
+        "My pleasure! The tea is chamomile, it's wonderful for settling the nerves after a to-do. *offers the tray*"
+      ],
+      [
+        1,
+        "Can I give you a hug?"
+      ],
+      [
+        0,
+        "Why of course!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "ft0": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "Tsai"
+    ],
+    "conversation": [
+      [
+        1,
+        "*entering the kitchen, in a much too calm attitude* Fayruz... I happened to have stepped away from my office a moment, and when I came back, I noticed my wall covered in very flamboyant and... very pink... roses. You wouldn't happen to know anything about that, do you?"
+      ],
+      [
+        0,
+        "Well, I was going to offer you some tea, but you do like to skip straight to the point, don't you?"
+      ],
+      [
+        0,
+        "They're art, Tsai. I thought you'd appreciate that."
+      ],
+      [
+        1,
+        "I... I... *sighs and closes eyes for a moment* It's not that I don't appreciate the gesture, but maybe it would have been a better idea to maybe ask if it was ok to cover the walls with... all those fuchsia flowers."
+      ],
+      [
+        0,
+        "Pink roses stand for grace, elegance, and appreciation. Are you saying you don't approve of those?"
+      ],
+      [
+        1,
+        "*feeling a little caught* Well it's not... it's not like I don't appreciate those things... it's just... the paintings were rather... unexpected. The way it was done, it almost seemed like some kind of prank."
+      ],
+      [
+        0,
+        "Can't something be a prank and a gesture of friendship?"
+      ],
+      [
+        0,
+        "After all, if I didn't like you at all, would I bother?"
+      ],
+      [
+        1,
+        "*Tsai looks caught again, but then gives here an appraising look.* You're a lot more crafty than you let on."
+      ],
+      [
+        0,
+        "Better to be underestimated than overestimated, darling."
+      ],
+      [
+        1,
+        "... that is certainly true. I've had to live by that rule myself. So does that mean I have any more... gifts... to worry about?"
+      ],
+      [
+        0,
+        "Not at the moment, no. *smile*"
+      ],
+      [
+        1,
+        "If you do decide to do that... please let me know beforehand. I'm not really partial to all that... pink."
+      ],
+      [
+        0,
+        "Is there a color you would prefer?"
+      ],
+      [
+        1,
+        "How about we slow down on the flower paintings for now?"
+      ],
+      [
+        0,
+        "I was going to fix them, but alright."
+      ],
+      [
+        1,
+        "A rose isn't exactly my favorite flower anyway, so don't worry about it."
+      ],
+      [
+        0,
+        "As you wish."
+      ],
+      [
+        1,
+        "... I do appreciate the sentiment though."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "ft1": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "Tsai"
+    ],
+    "conversation": [
+      [
+        1,
+        "*sipping a cup of jasmine green tea*"
+      ],
+      [
+        0,
+        "Oh my, that smells marvelous! Do you mind if I make a cup for myself?"
+      ],
+      [
+        1,
+        "Sure. Help yourself. *slides over the tea pot*"
+      ],
+      [
+        0,
+        "Thank you. *pours herself a cup* There is absolutely nothing like a cup of tea after a long day."
+      ],
+      [
+        1,
+        "Tell me about it. Did you have to defend yourself physically too?"
+      ],
+      [
+        0,
+        "No... I'm sensing a story here."
+      ],
+      [
+        1,
+        "*raises an eyebrow* You didn't hear what happened at the gym?"
+      ],
+      [
+        0,
+        "No, do tell!"
+      ],
+      [
+        1,
+        "Basically, Jacques and I had to work out a disagreement physically."
+      ],
+      [
+        0,
+        "...really now. *blush*"
+      ],
+      [
+        0,
+        "That sounds... distressing."
+      ],
+      [
+        1,
+        "Not too much so. We were able to work it out after some difficulty. I'm still in one piece, anyway."
+      ],
+      [
+        0,
+        "I'm... I'm absolutely certain you did."
+      ],
+      [
+        1,
+        "Oh?"
+      ],
+      [
+        0,
+        " Oh yes. If you'll excuse me, I need to go... sort my laundry. Yes, that's it."
+      ],
+      [
+        1,
+        "*tilts his head* Does this type of thing make you uncomfortable?"
+      ],
+      [
+        0,
+        "No, not at all! It's... I'm glad you two worked it out."
+      ],
+      [
+        1,
+        "I hope so. I'd rather not have to beat on my co workers."
+      ],
+      [
+        0,
+        "Yes, exactly."
+      ],
+      [
+        0,
+        "Exactly that."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "ft2": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "*peeps into the gym, looking around curiously*"
+      ],
+      [
+        1,
+        "*in mid series of kicks and punches, all flowing together* *notices her but keeps moving* You don't have to stay hidden... it's ok to come in."
+      ],
+      [
+        0,
+        "Oh! Alright. I, uh... was just wondering what it's like down here. I never actually came to look around. *wheels in cautiously*"
+      ],
+      [
+        1,
+        "Well, it's your typical gym... weights, treadmills, the usual. I just use the place to keep my reflexes up."
+      ],
+      [
+        0,
+        "This, ah, really is quite remarkable. I had no idea they went to these sorts of lengths for us."
+      ],
+      [
+        1,
+        "Well, considering the importance of our project, it only helps that our minds and bodies be in top form."
+      ],
+      [
+        0,
+        "I suppose so. Still, I've never been very physical... I always preferred staying inside, creating things."
+      ],
+      [
+        1,
+        "Ah, an artist. Well, art can happen here too, if you know how to bring it out..."
+      ],
+      [
+        0,
+        "...Really?"
+      ],
+      [
+        1,
+        "*offers a hand* I could show you how..."
+      ],
+      [
+        0,
+        "*accepts it hesitantly* It might be a bit difficult to work around the chair."
+      ],
+      [
+        1,
+        "*raises an eyebrow and smiles* You'd be surprised how much you can do from there."
+      ],
+      [
+        0,
+        "*blush* Okay, now I'm curious."
+      ],
+      [
+        1,
+        "Just follow my hand motions. And let your waist lead your actions..."
+      ],
+      [
+        0,
+        "*follows along, trying not to blush harder*"
+      ],
+      [
+        1,
+        "Lower your shoulders. Like this. *places hands on her shoulders to guide her movements*"
+      ],
+      [
+        0,
+        "Right. *takes a deep breath and tries to follow his directions*"
+      ],
+      [
+        1,
+        "That’s it. Relax. Everything comes out smoother and easier when you relax."
+      ],
+      [
+        0,
+        "Easier said than done."
+      ],
+      [
+        2,
+        "*leaning against the door frame* Fayruz? Haven't seen you down here before. Glad to see Tsai is giving you a hand."
+      ],
+      [
+        0,
+        "Oh! Yes, he was just showing me some exercises I could do."
+      ],
+      [
+        2,
+        "That is very nice of him, I'll just go grab some of the weights; you two keep having fun."
+      ],
+      [
+        0,
+        "You too!"
+      ],
+      [
+        1,
+        "*looks over* Did you want to join us? You did tell me before you wanted to learn."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Only if Fayruz is also okay with that.",
+        "output": "goto:ft3"
+      },
+      {
+        "text": "I probably should leave and just come back after you are done.",
+        "output": "goto:ft4"
+      }
+    ]
+  },
+  "ft3": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        2,
+        "True, but I don't want to break up the flow between you two, so only if Fayruz is also okay with that."
+      ],
+      [
+        0,
+        "I am definitely fine with that!"
+      ],
+      [
+        2,
+        "In that case, it would be my pleasure. Hm, Tsai, with the two of us here we should be able to lift her to the pull up bar. Pushing her chair all the time I'm sure she actually has pretty good muscle strength, would be a waste not to train that."
+      ],
+      [
+        1,
+        "Good point. for what I'm showing her, arm strength will be needed."
+      ],
+      [
+        2,
+        "Exactly! Let's get started then."
+      ],
+      [
+        0,
+        "Er... right! Let's go!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "m.approval:fayruz.+5;tsai.+5"
+      }
+    ]
+  },
+  "ft4": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        2,
+        "Did I? Well, I'd rather not get in between you two, actually, I probably should leave and just come back after you are done."
+      ],
+      [
+        0,
+        "Oh, no, I'm certain it'll be fine."
+      ],
+      [
+        2,
+        "Really now? I can see when I'm interrupting something. Enjoy yourself, bye."
+      ],
+      [
+        1,
+        "*shrugs* Suit yourself then."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "jt0": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "Are you sure you can handle that much weight on the leg machine? We don't want you to hurt yourself, petit homme."
+      ],
+      [
+        1,
+        "This hasn't given me problems before. I'm perfectly fine, thank you."
+      ],
+      [
+        0,
+        "... very well."
+      ],
+      [
+        0,
+        "... What music are you into lately?"
+      ],
+      [
+        1,
+        "Do you always begin awkward conversations this way?"
+      ],
+      [
+        0,
+        "Who are you calling awkward? I was trying to be nice but I guess some people are just not getting that."
+      ],
+      [
+        1,
+        "I didn't know being nice entailed assuming people didn't know their own limits when it came to exercising."
+      ],
+      [
+        0,
+        "Did you walk by a mirror lately? If you were a tree I would mark you for felling so you don't break in the next storm."
+      ],
+      [
+        1,
+        "This tree has been through a lot of storms. You wouldn't be the first lumberjack to break his axe. You do know what they say about assumptions, I'm sure."
+      ],
+      [
+        0,
+        "You don't know anything about axes, do you? Maybe you should keep to your areas of knowledge... however limited they are."
+      ],
+      [
+        1,
+        "*raises an eyebrow* Maybe I should... and maybe someone should tell the UN they really should have known better than to let a simpleton in on this project. Maybe I should go do that..."
+      ],
+      [
+        0,
+        "*breathes in and out deeply* Reporting yourself. That shows at least some traces of balls on you."
+      ],
+      [
+        2,
+        "*walks in* Hi you two!"
+      ],
+      [
+        0,
+        "*cold stare*"
+      ],
+      [
+        1,
+        "Hello __player__. I was just pondering on the lack of wit some people have."
+      ],
+      [
+        2,
+        "Okay. That doesn't seem like bad timing at all... how about we break this up and all just cool down."
+      ],
+      [
+        0,
+        "*\"pondering\" grunting noise*"
+      ],
+      [
+        1,
+        "I guess I could take a break from this machine... good idea. If you'll excuse me... unless you have something for me to work on?"
+      ],
+      [
+        0,
+        "*grabs his towel and leaves without a word*"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "jt1": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "*looks at Tsai for a while then shrugs* Some people have imaginary friends, others have imaginary enemies, I guess."
+      ],
+      [
+        1,
+        "*without looking at him* I figure you have the latter, from the looks of things."
+      ],
+      [
+        0,
+        "How would you know about these things? I heard your parents had to tie a sausage to your neck so at least the dogs wanted to play with you."
+      ],
+      [
+        1,
+        "*sidelong look of mild exasperation* I have to say, you really are ambitious, taking on two full time jobs... both this project and being a complete ass. I'm in awe of your work ethic."
+      ],
+      [
+        0,
+        "Thanks."
+      ],
+      [
+        1,
+        "*shakes his head* You take all the fun out of this. Seriously, are you really that stupid, or just pulling my leg?"
+      ],
+      [
+        0,
+        "I can pull your leg out of the joint if you like. Speaking about stupid, what did the UN say about your complaint? Send it back with all the typos corrected and an \"F\" on it?"
+      ],
+      [
+        1,
+        "More of an apology for having the only expert in woodwork being an overly masculine living cartoon. They had few options, apparently."
+      ],
+      [
+        0,
+        "You would not even know masculinity if it hit you into the face, you sackless joke. *pushes Tsai*"
+      ],
+      [
+        1,
+        "Now that's an interesting statement, coming from you. Look, I know that having transitioned you really want to show that being male is truly who you are, but you really don't have to keep trying so hard."
+      ],
+      [
+        0,
+        "*pushes Tsai again* Really, huh?"
+      ],
+      [
+        1,
+        "*shrugs* Oh well... you know what they say about overcompensating..."
+      ],
+      [
+        0,
+        "No, what do they say? Tell me..."
+      ],
+      [
+        1,
+        "Oh, don't be an oaf. Ask the female in you if you need an answer to that."
+      ],
+      [
+        0,
+        "*punches Tsai in the face*"
+      ],
+      [
+        1,
+        "*Tsai is clearly the better fighter but Jacques is twice his weight and a head taller than him. Tsai has to recover from the few blows that Jacques gets in, but constantly keeps chipping away at Jacques with small hits.*"
+      ],
+      [
+        0,
+        "*falls back onto a bench, heavily breathing* Okay, you are buying."
+      ],
+      [
+        1,
+        "*catches breath* That's fair."
+      ],
+      [
+        2,
+        "Fine, but only after I get you two to the medical facility!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "void"
+      }
+    ]
+  },
+  "jt2": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "Hey Tsai. How is the nose?"
+      ],
+      [
+        1,
+        "Better, thanks. How's your leg? I didn't damage the knee too much, did I?"
+      ],
+      [
+        0,
+        "The medic said no, but it hurts like a mofo."
+      ],
+      [
+        1,
+        "... I got something for that. *pulls out two bottles* This one is Hak Kwai oil... Black Ghost. It's for deep bone bruising. This here is Dit Da Jow. It works well for tissue bruising."
+      ],
+      [
+        0,
+        "Thanks, I'll get back to that if it doesn't go away in a few days. Don't want to shave my legs if I can avoid it - and if I don't, I'll use it all up in one go. *laughs*"
+      ],
+      [
+        1,
+        "*chuckles* I can always get more anyway. So, what's brings you here?"
+      ],
+      [
+        0,
+        "The digital gauge on my lathe is broken. Thought it couldn't hurt to have an egghead have a look at it, if you have the time."
+      ],
+      [
+        1,
+        "*raises an eyebrow* I could of course... though if you didn't work with outdated equipment, you probably wouldn't have that problem. I could get something better for you, if you want to work efficiently, that is."
+      ],
+      [
+        0,
+        "Let's get the thing running again first. I've got stuff to finish. Maybe we can talk about that laser cutter you mentioned later."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Am I glad to see you two are getting along better now!",
+        "output": "goto:jt3"
+      },
+      {
+        "text": "And there I thought that fight would get rid of your sexual tensions...",
+        "output": "goto:jt4"
+      }
+    ]
+  },
+  "jt3": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        2,
+        "Am I glad to see you two are getting along better now!"
+      ],
+      [
+        0,
+        "We always got along fine... sort of."
+      ],
+      [
+        1,
+        "I'm not sure I can agree with us being fine from the beginning... but yes, we've come to an understanding. The muscle head isn't as much of a nuisance as I thought he was."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "m.approval:tsai.+5;jacques.+0"
+      }
+    ]
+  },
+  "jt4": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        2,
+        "Seriously, are you still bickering? And there I thought that fight would get rid of your sexual tensions..."
+      ],
+      [
+        1,
+        "If this is bickering to you, I suggest you take a course in human interactions."
+      ],
+      [
+        0,
+        "Seriously. You are way too sensitive sometimes."
+      ],
+      [
+        2,
+        "Okay, okay, deny it all you want. Have fun you two!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "m.approval:tsai.+0;jacques.+5"
+      }
+    ]
+  }
+}	

@@ -1,0 +1,750 @@
+{
+  
+  
+  "c0": {
+    "index": 0,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hello!"
+      ],
+      [
+        0,
+        "Oh, hello. You must be __player__."
+      ],
+      [
+        1,
+        "Yes, that's me. Who are you?"
+      ],
+      [
+        0,
+        "I'm Didara. Plastics. Nice to meet you."
+      ],
+      [
+        1,
+        "Nice to meet you! Plastics? That sounds interesting, what can you do for me?"
+      ],
+      [
+        0,
+        "I can get you any kind of material you need that is based around plastics or rubber, and if you need recycled plastic and rubber products I can probably find you some."
+      ],
+      [
+        1,
+        "Nice! That will come in handy."
+      ],
+      [
+        1,
+        "So, why are you all alone over in the work area?"
+      ],
+      [
+        0,
+        "Well, I'm not really good at, y'know, social stuff. So I just try to avoid it when I can."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Oh come on! It's important to know your team mates.",
+        "output": "goto:c1"
+      },
+      {
+        "text": "Oh, I see.",
+        "output": "goto:c2"
+      }
+    ]
+  },
+  "c1": {
+    "index": 1,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Oh come on! It's important to know your teammates. Why don't you go over to the commons area and join the meet-and-greet. I'm sure it will be fun if you just get there."
+      ],
+      [
+        0,
+        "I'd really rather not."
+      ],
+      [
+        1,
+        "Oh boy, you're one of those people I'll have to poke for everything, eh? Well, introverts, can't be helped I guess."
+      ],
+      [
+        0,
+        "No, I do my job just fine. I just don't like being pushed into things I'm uncomfortable with."
+      ],
+      [
+        1,
+        "Fine. I'll leave you lonelier be then."
+      ],
+      [
+        0,
+        "See you later."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-10"
+      }
+    ]
+  },
+  "c2": {
+    "index": 2,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+        1,
+        "Oh, I see. Well, if you are uncomfortable then you shouldn't push yourself. Is there anything I could bring you from the meet-and-greet?!"
+      ],
+      [
+        0,
+        "Oh! No, thank you, but I appreciate it!"
+      ],
+	  [
+	    1,
+        "Okay. I'm looking forward to working with you! And please don't be shy if you want to talk to me."
+      ],
+      [
+        0,
+        "Thank you. I'll try to remember that."
+      ],
+	  [
+	    1,
+        "Have a great evening then. See you!"
+      ],
+      [
+        0,
+        "See you later!"
+      ]
+	
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c3": {
+    "index": 3,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "Hi, Didara. I'm thinking on how to best build the walls. Any input?"
+      ],
+      [
+        0,
+        "Well, tires are a good option. They hold up for a long time and it's recycling"
+      ],
+	  [
+	    1,
+        "Yeah, I read that on the draft board."
+      ],
+      [
+        1,
+        "I think it was called an 'Earth Ship', sounds nice."
+      ],
+	  [
+	    0,
+        "It would be. Nearly indestructible, low repair costs, low building costs."
+      ],
+      [
+        0,
+        "Environmentally friendly, too, and very versatile in design. Some of the ones I've seen are beautiful!"
+      ],
+	  [
+	    1,
+        "Have a great evening then. See you!"
+      ],
+      [
+        0,
+        "See you later!"
+      ]
+	],
+    "options": [
+      {
+        "text": "Those are some amazing points. I think that might be what we need to make this project the environmental success it has to be to safe humanity.",
+        "output": "goto:c4, approval:+15"
+      },
+      {
+        "text": "I'm not so sure if that is really going to work so well. Maybe I should ask the others first.",
+        "output": "goto:c5, approval:+10"
+      }
+    ]
+  },
+  "c4": {
+    "index": 4,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	 [
+	    1,
+        "Those are some amazing points. I think that might be what we need to make this project the environmental success it has to be to safe humanity."
+      ],
+      [
+        0,
+        "Definitely! Do you want me to start sourcing tires?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "Yes, please do. You are amazing, thank you!",
+        "output": "goto:c5, approval:+15,"
+      },
+      {
+        "text": "Let me talk to the others first, but thank you. ",
+        "output": "goto:c5, approval:+10"
+      }
+    ]
+  },
+  "c5": {
+    "index": 5,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "You're very welcome! I can't wait to see what you come up with!"
+      ]
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": ""
+      }
+    ]
+  },
+  "c6": {
+    "index": 6,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "I'm not so sure if that is really going to work so well. Maybe I should ask the others first."
+      ],
+      [
+        0,
+        "Oh. Well, you do what you think is best. If you have any questions, though, I'm happy to help."
+      ],
+	  [
+	    1,
+        "Okay, I'll be going then."
+      ]
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-5"
+      }
+    ]
+  },
+  "c7": {
+    "index": 7,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "Hi, Didara. How about we just talk a little bit with each other? Tell me something about yourself."
+      ],
+      [
+        0,
+        "Um... I'm from Nigeria. I work with plastics. I like Doctor Who. I'm not sure what else you want to know.."
+      ]
+	],
+    "options": [
+      {
+        "text": "Oh, I forgot that you are shy. Sorry to put you on the spot there. I just thought it would be nice to know you better as a person, not just a colleague",
+        "output": "goto:c8"
+      },
+      {
+        "text": "No reason to be shy. I just want to know you better.",
+        "output": "goto:c11"
+      }
+    ]
+  },
+  "c8": {
+    "index": 8,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "Oh, I forgot that you are shy. Sorry to put you on the spot there. I just thought it would be nice to know you better as a person, not just a colleague."
+      ],
+      [
+        0,
+        "Oh. Well... you could watch some Doctor Who with me if you want, as soon as I finish up this project."
+      ]
+	
+	],
+    "options": [
+      {
+        "text": "That sounds really nice, let me make some popcorn while you finish up.",
+        "output": "goto:c9"
+      },
+      {
+        "text": "Hey, how about I introduce you to one of my favorite shows?",
+        "output": "goto:c10"
+      }
+    ]
+  },
+  "c9": {
+    "index": 9,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "That sounds really nice, let me make some popcorn while you finish up."
+      ],
+      [
+        0,
+        "Awesome! Won't be more than a few minutes!"
+      ]
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c10": {
+    "index": 10,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "Hey, how about I introduce you to one of my favorite shows?"
+      ],
+      [
+        0,
+        "Maybe. How about I watch one episode of your show and you watch one of mine?"
+      ],	
+	  [
+	    1,
+        "Sure! That's sounds like a great way to learn something about each other. I'll grab my show and some popcorn."
+      ],
+      [
+        0,
+        "Great! I'll finish up and meet you in the common area."
+      ]	
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c11": {
+    "index": 11,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "No reason to be shy. I just want to know you better."
+      ],
+      [
+        0,
+        "Maybe I just know what I like."
+      ],	
+	  [
+	    1,
+        "Heh? What is that supposed to mean?."
+      ],
+      [
+        0,
+        "I see no reason to waste my time on something that will bore me."
+      ],
+	  [
+	    1,
+        "Woah, woah, okay. Man, I was just trying to be nice. Good team-mates and all, but I guess I should just leave you alone, working."
+      ],
+      [
+        0,
+        "Yep. I have a ton of stuff to do."
+      ]
+	],
+    "options": [
+      {
+        "text": "Oh, am I overworking you? Sorry, that wasn't my intention.",
+        "output": "goto:c12"
+      },
+      {
+        "text": "Well, I have a ton of stuff to do, too, and obviously getting to know my team mates better isn't on the list in your opinion.",
+        "output": "goto:c13"
+      }
+    ]
+  },
+  "c12": {
+    "index": 12,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "Oh, am I overworking you? Sorry, that wasn't my intention."
+      ],
+      [
+        0,
+        "What? Oh. No, it's just a lot of chasing down vendors and doing paperwork."
+      ],	
+	  [
+	    1,
+        "You said you have a ton of stuff to do, and since I am the one setting the work tasks I was just worried for a moment there. But it seems that I upset you, sorry, I'll leave."
+      ],
+      [
+        0,
+        "Oh. I didn't mean it like that. Just that I prefer to use my free time on things I know I'll like."
+      ],
+	  [
+	    1,
+        "Well, all I asked was if you would be willing share those things, but it seems we are talking past each other today."
+      ],
+      [
+        0,
+        "I... Oh. I must have misunderstood. Sorry."
+      ],
+	  [
+        1,
+        "It's okay, happens sometimes. I probably better leave before we get tangled even worse. See you."
+      ],
+	  [
+        0,
+        "Ok."
+      ]
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-15"
+      }
+    ]
+  },
+  "c13": {
+    "index": 13,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "Well, I have a ton of stuff to do, too, and obviously getting to know my team mates better isn't on the list in your opinion."
+      ],
+      [
+        0,
+        "Apparently not."
+      ],
+	  [
+	    1,
+        "Fine. Bye. "
+      ]	  
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-20"
+      }
+    ]
+  },
+  "c14": {
+    "index": 14,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "Hey, guess who got you a special edition Dr. Who pair of sonic sun glasses?"
+      ],
+      [
+        0,
+        "WHAT?? Are you serious?"
+      ]
+	],
+    "options": [
+      {
+        "text": "Well, I could see how much you enjoy the show and thought you might like them.",
+        "output": "goto:c15"
+      },
+      {
+        "text": "I just thought it would be a good way to say sorry for last time. We seemed to have gotten into each other’s hair pretty bad, and we are all on the same team. So, yeah, sorry.",
+        "output": "goto:c18"
+      }
+    ]
+  },
+  "c15": {
+    "index": 15,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "Well, I could see how much you enjoy the show and thought you might like them."
+      ],
+      [
+        0,
+        "Wow! That's amazing! Thank you so much!"
+      ]
+	],
+    "options": [
+      {
+        "text": "Come on, put them on. Let's see what features they have ",
+        "output": "goto:c16"
+      },
+      {
+        "text": "Come on, put them on. I'm sure you will look gorgeous with them",
+        "output": "goto:17"
+      }
+    ]
+  },
+  "c16": {
+    "index": 16,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [	  
+	  [
+	    1,
+        "Come on, put them on. Let's see what features they have"
+      ],
+      [
+        0,
+        "Ok! Oh, look at this! And this! What does this do? Ooh!"
+      ],
+	  [
+	    1,
+        "I've heard they do something when you watch certain episodes, so, Marathon after work today?"
+      ],
+	  [
+	    0,
+        "Absolutely! This is so great!"
+      ]
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c17": {
+    "index": 17,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "Come on, put them on. I'm sure you will look gorgeous with them"
+      ],
+      [
+        0,
+        "Oh! Um... ok... Hey, look, it does this really cool thing!"
+      ],
+	  [
+	    1,
+        "Wow that is nice! I've heard they do stuff when you watch specific episodes. So, do you maybe want to come watch a season with me... over in my room?"
+      ],
+      [
+        0,
+        "I... would love to, actually."
+      ],
+	  [
+	    1,
+        "Yes! Ahem, I mean, great, let's do that after work today. See you then, Didara."
+      ],
+      [
+        0,
+        "I look forward to it."
+      ]
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+20, romance:true"
+      }
+    ]
+  },
+  "c18": {
+    "index": 18,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "I just thought it would be a good way to say sorry for last time. We seemed to have gotten into each other’s hair pretty bad, and we are all on the same team. So, yeah, sorry."
+      ],
+      [
+        0,
+        "Oh! Well, thank you. And I'm sorry I got upset."
+      ]
+	],
+    "options": [
+      {
+        "text": "I'm sorry for being upset, too. Let's just see that we avoid that from now on, okay?",
+        "output": "goto:c19"
+      },
+      {
+        "text": "Well, we need to manage to work together, so let's just make the best out of it.",
+        "output": "goto:c20"
+      }
+    ]
+  },
+  "c19": {
+    "index": 19,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "I'm sorry for being upset, too. Let's just see that we avoid that from now on, okay?"
+      ],
+      [
+        0,
+        "Sure. And thanks again."
+      ],
+	  [
+	    1,
+        "Okay, I'll get back to work then. See you."
+      ],
+      [
+        0,
+        "See you later."
+      ]
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c20": {
+    "index": 20,
+    "participants": [
+      "Didara",
+      "__player__"
+    ],
+    "conversation": [
+	  [
+	    1,
+        "I'm sorry for being upset, too. Let's just see that we avoid that from now on, okay?"
+      ],
+      [
+        0,
+        "Sure. And thanks again."
+      ],
+	  [
+	    1,
+        "Let's get back to work then. Bye."
+      ],
+      [
+        0,
+        "See you later."
+      ]
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c999": {
+    "index": 0,
+    "participants": [
+	  "Didara"
+    ],
+    "conversation": [
+		[0,"Hi again, do you need something?"]
+	],
+    "options": [
+      {
+        "text": "Yes, please gather materials for me.",
+        "output": "goto:c1000"
+      },
+      {
+        "text": "No, just saying hi",
+        "output": "goto:c1001"
+      }
+    ]
+  },
+  "c1000": {
+    "index": 0,
+    "participants": [
+	  "Didara"
+    ],
+    "conversation": [
+		[0,"Sure thing!"]
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "resources:fetch"
+      }
+    ]
+  },
+  "c1001": {
+    "index": 0,
+    "participants": [
+	  "Didara"
+    ],
+    "conversation": [
+		[0,"Oh hi!"]
+	],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": ""
+      }
+    ]
+  }
+}

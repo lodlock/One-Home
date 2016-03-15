@@ -1,0 +1,938 @@
+{
+  "c0": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Oh hello, looks like you already redecorated the commons and kitchen area."
+      ],
+      [
+        0,
+        "Oh, yes! Well, I just thought that there's so much lovely social space, we might as well make the most of it! I'm Fayruz, and you are...?"
+      ],
+      [
+        1,
+        "Nice to meet you. My name is Hero, I'm the project leader."
+      ],
+      [
+        0,
+        "A pleasure to meet you! Would you like some tea?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "Yes, but I should get it.",
+        "output": "goto:c1"
+      },
+      {
+        "text": "Yes, please.",
+        "output": "goto:c2"
+      }
+    ]
+  },
+  "c1": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Tea? Oh sure, why not! But shouldn't I get that for you instead?"
+      ],
+      [
+        0,
+        " Er... no? I've been making my own tea since I... learned how to make tea. To state the utterly obvious. But thank you!"
+      ],
+      [
+        1,
+        "I just meant because I get around easier, I'm sure you know how to make tea."
+      ],
+      [
+        0,
+        "Oh! No, they made all the common areas accessible. Really it was quite a well-done job."
+      ],
+      [
+        1,
+        "Well, in that case... yes, thanks, tea would be lovely."
+      ],
+      [
+        0,
+        "Alright then! *makes and serves tea*"
+      ],
+      [
+        1,
+        "Thank you. So, tell me, what is your expertise for this project?"
+      ],
+      [
+        0,
+        "Oh, I've spent a lot of time studying the use of stone and glass as building materials--what's found where, which materials are best for which task. Besides, they thought it would be nice to make sure the finished project is pretty as well as sustainable!"
+      ],
+      [
+        1,
+        "Stone and glass! That will definitely be useful."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-5"
+      }
+    ]
+  },
+  "c2": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Tea? Yes, please, you obviously already set up the kitchen for just that purpose."
+      ],
+      [
+        0,
+        "Well, tea is one of life's lovely little pleasures, darling!"
+      ],
+      [
+        1,
+        "In that case, I am really looking forward to find out what lovely type of tea you serve."
+      ],
+      [
+        0,
+        "They really stocked up! We have English breakfast, St. Petersburg black, darjeeling, formosa oolong, chamomile, mint verbena, rooibos chai, Russian morning, Russian evening, lapsang souchong, sencha, and... Earl Grey. What would you like?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "Rooibos Chai, please, with just a bit of milk.",
+        "output": "goto:c3"
+      },
+      {
+        "text": "Um, I frankly don't know much about tea, so, you pick?",
+        "output": "goto:c4"
+      }
+    ]
+  },
+  "c3": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Rooibos Chai, please, with just a bit of milk."
+      ],
+      [
+        0,
+        "But of course!"
+      ],
+      [
+        1,
+        "Nice to find another tea enthusiast here!"
+      ],
+      [
+        0,
+        "Oh yes, nothing reminds me more of home. Mother always had a cup of steaming hot tea whenever you really needed one."
+      ],
+      [
+        1,
+        "Nothing better indeed. Just the right thing for work, or art for that matter. So tell me, what is your expertise?"
+      ],
+      [
+        0,
+        "Oh, I've spent a lot of time studying the use of stone and glass as building materials--what's found where, which materials are best for which task. Besides, they thought it would be nice to make sure the finished project is pretty as well as sustainable!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "I wasn't informed about the requirement for it to be pretty?",
+        "output": "approval:+5,goto:c5"
+      },
+      {
+        "text": "Pretty? Why don’t have time for that.",
+        "output": "approval:+5,goto:c6"
+      }
+    ]
+  },
+  "c4": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Um, I frankly don't know much about tea, so, you pick?"
+      ],
+      [
+        0,
+        "Alright! I was going to have a lovely cup of chamomile. Just the thing after a long afternoon of interior decorating!"
+      ],
+      [
+        1,
+        "If you say so, I'll trust you. Thank you. So, what are you working with here?"
+      ],
+      [
+        0,
+        "Oh, I've spent a lot of time studying the use of stone and glass as building materials--what's found where, which materials are best for which task. Besides, they thought it would be nice to make sure the finished project is pretty as well as sustainable!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "I wasn't informed about the requirement for it to be pretty?",
+        "output": "goto:c5"
+      },
+      {
+        "text": "Pretty? Why don’t have time for that.",
+        "output": "goto:c6"
+      }
+    ]
+  },
+  "c5": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Wait, pretty? I wasn't informed about the requirement for it to be pretty?"
+      ],
+      [
+        0,
+        "Well, it's not a REQUIREMENT, but it does make things ever so much more pleasant, wouldn't you say?"
+      ],
+      [
+        1,
+        "That is very true. I mean, we need to live happily in that building, and psychologically speaking I would much rather live in something that is pretty."
+      ],
+      [
+        0,
+        "Precisely! I intend to make it as lovely as possible... sustainably, of course."
+      ],
+      [
+        1,
+        "You are definitely the perfect person for this! I am very glad to have you on the team! Looking forward to working with you."
+      ],
+      [
+        0,
+        "Thank you! I'm sure I will enjoy working with you as well!"
+      ],
+      [
+        1,
+        "Lovely, I'll finish this delicious cup of tea then and get on with my work then. Nice talking to you!"
+      ],
+      [
+        0,
+        "Lovely meeting you, Hero!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c6": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Pretty? Really? Don't you think the survival of humanity is a bit too high stakes than to waste time on something like that?"
+      ],
+      [
+        0,
+        "The survival of humanity goes beyond the physical. Our ability to create for its own sake sets us apart from other animals. In a strictly utilitarian environment, like a bunker, that spark in us starts to fade away. WE might survive, but our humanity might not."
+      ],
+      [
+        1,
+        "Well, okay, if we have the time in the end, I guess you can beautify the design."
+      ],
+      [
+        0,
+        "We will. Just wait and see."
+      ],
+      [
+        1,
+        "Fine, fine, thanks for the tea anyway. I'll better get going. Bye."
+      ],
+      [
+        0,
+        "Bye."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-10"
+      }
+    ]
+  },
+  "c7": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hi Fayruz, I'm working on the windows right now, what is your opinion?"
+      ],
+      [
+        0,
+        "Well, wood frames are fairly efficient and terribly pleasing aesthetically... but if you really want the most effective and environmentally sound option, it would have to be fibreglass."
+      ]
+    ],
+    "options": [
+      {
+        "text": "And what about the aesthetics of fibreglass?",
+        "output": "goto:c8"
+      },
+      {
+        "text": "Why would you recommend it?",
+        "output": "goto:c11"
+      }
+    ]
+  },
+  "c8": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "And what about the aesthetics of fibreglass? You are the one who proposed the house should be pretty."
+      ],
+      [
+        0,
+        "It's a little more utilitarian than wood at first, it's true--but on the other hand, you could paint it however you pleased. You could even make it look just like wood if you wanted!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "So it is efficient and pretty. Just like you.",
+        "output": "goto:c9"
+      },
+      {
+        "text": "Efficient and pretty, that should work just fine for the house.",
+        "output": "goto:c10"
+      }
+    ]
+  },
+  "c9": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "Hey, now that is an interesting idea. So it is efficient and pretty. Just like you. Thanks, I'll get to it then!"
+      ],
+      [
+        0,
+        "Aww... thanks! ...Am I blushing? It feels like I'm blushing."
+      ],
+      [
+        0,
+        "I won't tell if you are. See you."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c10": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hey, now that is an interesting idea. Efficient and pretty, that should work just fine for the house. Thank you for the great input!"
+      ],
+      [
+        0,
+        "Glad to help!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c11": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Fibreglass? I haven't heard much about it so far, why would you recommend it?"
+      ],
+      [
+        0,
+        "Not only do fibreglass frames take less energy to produce, they're also far more efficient--something like 20 to 40 percent more so. They're also more durable in general, and harder for adverse conditions to damage. Really, it's a marvelous innovation!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "That does sound great!",
+        "output": "goto:c12"
+      },
+      {
+        "text": "I'll think on it.",
+        "output": "goto:c13"
+      }
+    ]
+  },
+  "c12": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "That does sound great! I think I'll stick with that. Thank you for the input, Fayruz. That was really helpful!"
+      ],
+      [
+        0,
+        "Glad to be of service, darling!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c13": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Interesting. I'll think on it. Thanks, see you."
+      ],
+      [
+        0,
+        "See you later!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": ""
+      }
+    ]
+  },
+  "c14": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hi Fayruz! We've been working together for a while, I thought it might be good to know each other better. So, tell me about yourself."
+      ],
+      [
+        0,
+        "Oh goodness, you never really know how to answer such a question, do you? Hmm... Well, I'm the baby of the family. Three older brothers. And I've always been a bit artistic, so when they got too annoying I would paint roses all over their walls."
+      ],
+      [
+        1,
+        "*laughs* Now that is a fantastic way of dealing with older brothers! How did they react?"
+      ],
+      [
+        0,
+        "Ahmal--the oldest--he absolutely hated it, so of course I did it every chance I could get. Kadir tried to pretend he didn't care, that he was above it all, but he would steal my paints and paint over them when he could. And I think Rakin liked it--at least, he never got rid of them. So of course by the time we were all too old to be tormenting each other his walls looked like an absolute garden."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Do you miss them?",
+        "output": "goto:c15"
+      },
+      {
+        "text": "Did your parents never get angry with you doing this?",
+        "output": "goto:c16"
+      },
+      {
+        "text": "Wow, your parents really were too soft on you, weren't they?",
+        "output": "goto:c17"
+      }
+    ]
+  },
+  "c15": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Awww, that is so cute. Sounds like you have a lovely family. Do you miss them?"
+      ],
+      [
+        0,
+        "Oh, all the time. But I need to be here. Mother was very supportive... Father took a little convincing, but in the end he knew it was important to me. *sigh* It's not like they're gone, though! I'm sure I'll get to see them again soon."
+      ],
+      [
+        1,
+        "Hey, how about I kick Tsai out of the conference room and you use the big screen for calling your family?"
+      ],
+      [
+        0,
+        "...You would do that? I... thank you so much! *hug*"
+      ],
+      [
+        1,
+        "He is holing up in there way too much anyway, and when I said I'd like to know you better, that absolutely including that I want us to be on good terms."
+      ],
+      [
+        0,
+        "Hehe, I almost feel sorry for him... almost."
+      ],
+      [
+        1,
+        "Well, you could paint him a rose on the wall, to make up for it..."
+      ],
+      [
+        0,
+        "Oooooh, that is an absolutely terrible idea that I am absolutely going to do."
+      ],
+      [
+        1,
+        "Well, then let me get him out of that room for you. And just in case I don't survive this, it was nice knowing you."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c16": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Wow, you are seriously persistent. Did your parents never get angry with you doing this?"
+      ],
+      [
+        0,
+        "The first time or two. Or three. But I think Father always thought it was funny, secretly. Either way, eventually they stopped trying to stop me."
+      ],
+      [
+        1,
+        "So, does that mean if somebody here gets annoying I could ask the rose ninja to beautify their walls?"
+      ],
+      [
+        0,
+        "I would be glad to, darling, just say the word!"
+      ],
+      [
+        1,
+        "Well, a certain person has decided that the conference room is his private area now. I think I could lure him out of there for a bit..."
+      ],
+      [
+        0,
+        "I will go get my paintings RIGHT NOW. *grin*"
+      ],
+      [
+        1,
+        "Oh, I can't wait to see his face after this. See you afterwards!"
+      ],
+      [
+        0,
+        "I hope I have enough alizarin pink..."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c17": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Wow, your parents really were too soft on you, weren't they?"
+      ],
+      [
+        0,
+        "...do you expect me to agree with that? They loved us all, and I like to think we all turned out well enough."
+      ],
+      [
+        1,
+        "Well, I guess, but I think Tsai was right when he wondered if you were too coddled to work through this project without some emotional trauma."
+      ],
+      [
+        0,
+        "He said that? Really? And you believe it?"
+      ],
+      [
+        1,
+        "He does have a knack for getting information, there is a reason why he is in the conference room with the super-computer all the time. I mean, of course apart from when he is at the gym."
+      ],
+      [
+        0,
+        "Having a knack for getting information does NOT necessarily mean a knack for interpreting it. My parents gave me confidence in my endeavors and a will to succeed, and they managed to do that without trying to break my spirit. Can you--or Tsai--say the same?"
+      ],
+      [
+        1,
+        "Woah, woah, okay, you are getting upset here. Let's not get all emotional, I'll just leave you be."
+      ],
+      [
+        0,
+        "I am not 'getting emotional', I am standing up for myself. Learn the difference, please."
+      ],
+      [
+        1,
+        "Sure. Well, I better get back to work. Bye."
+      ],
+      [
+        0,
+        "So should I. I wonder how much alizarin pink I have..."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-15"
+      }
+    ]
+  },
+  "c18": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Have you seen Tsai's expression when he found his walls all painted with roses?"
+      ],
+      [
+        0,
+        "Omigosh, tell me! Did he go all red and mottled?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "You made him so flustered! I want to be around you more.",
+        "output": "goto:c19"
+      },
+      {
+        "text": "It was hilarious!",
+        "output": "goto:c20"
+      },
+      {
+        "text": "Aha, so it was you!",
+        "output": "goto:c21"
+      }
+    ]
+  },
+  "c19": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "You know, he has this forced stoic expression about him all the time. This air of \"I'm better than you\", so he tried his hardest to just shrug it off... but he adjusted his glasses at least every three seconds."
+      ],
+      [
+        0,
+        "He is so much like Kadir. They would probably get along... or hate each other on sight."
+      ],
+      [
+        1,
+        "Half way worth setting them up on a blind date..."
+      ],
+      [
+        0,
+        "...don't tempt me. Even if it would be hilarious to watch them sniping at each other over breadsticks."
+      ],
+      [
+        1,
+        "Well, if you don't want to set those two up with a date... could I maybe interest you in setting up another date?"
+      ],
+      [
+        0,
+        "Between whom? I do admit, Tsai and Jacques have a fascinating dynamic..."
+      ],
+      [
+        1,
+        "Hah, so it's not just me thinking that! But, no, I was more thinking that maybe you wouldn't mind setting up a date for me."
+      ],
+      [
+        0,
+        "Oooh, our fearless leader has a crush! *grin* Who am I asking out for you?"
+      ],
+      [
+        1,
+        "You know, she is this amazingly talented women. Intelligent, great sense of humor, and I was hoping she would maybe enjoy a good cup of tea with me."
+      ],
+      [
+        0,
+        "...Well, I think she would be delighted. But it wouldn't really work if I do the asking."
+      ],
+      [
+        1,
+        "In that case. Will you go on a date with me?"
+      ],
+      [
+        0,
+        "Yes! Er... I would be honored. *blush*"
+      ],
+      [
+        1,
+        "That was the answer I wanted to hear! Let me set up something nice, and talk the night away, my lady."
+      ],
+      [
+        0,
+        "Hehe, don't tell me that or I'll REALLY start to chatter!"
+      ],
+      [
+        1,
+        "And I'll listen to your every word..."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+15,romanced:true"
+      }
+    ]
+  },
+  "c20": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "He was trying his hardest not to get red and just pretend his stoic superiority was unscratched but he wouldn't stop fumbling with his glasses, it was hilarious!"
+      ],
+      [
+        0,
+        "He is so much like Kadir I almost don't miss home so much."
+      ],
+      [
+        1,
+        "Well, I don't think he'll leave that room any time soon again, so I'm afraid you will have to stick to a smaller screen for calling your family. Sorry, but I hope his reaction was worth it."
+      ],
+      [
+        0,
+        "Ah, but true artists must suffer for their art occasionally!"
+      ],
+      [
+        1,
+        "I'll make us a tea to toast to artists suffering for the betterment of humanity!"
+      ],
+      [
+        0,
+        "I will certainly drink to that! Hm, which tea best embodies noble suffering..."
+      ],
+      [
+        1,
+        "Hopefully the same tea that embodies friendship!"
+      ],
+      [
+        0,
+        "I think... Earl Grey. It's warm, friendly, and accessible, but with an edge of tragic nobility. Or it could be the name."
+      ],
+      [
+        1,
+        "Hey, nomen est omen! To friendship, and artists, and roses of defiance!"
+      ],
+      [
+        0,
+        "A toast to the beauty of the world!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c21": {
+    "index": 0,
+    "participants": [
+      "Fayruz",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Aha, so it was you!"
+      ],
+      [
+        0,
+        "Being fabulous? Very well, you caught me red handed."
+      ],
+      [
+        1,
+        "Pink handed rather, but anyway. Was that really necessary? We need our team to work well together, so I would very much appreciate if you would refrain from such pranks."
+      ],
+      [
+        0,
+        "So when you and Tsai speculate about my emotional fragility behind my back is perfect teamwork, then?"
+      ],
+      [
+        1,
+        "It was merely a concern he raised with his superior, nothing familiar about it."
+      ],
+      [
+        0,
+        "There is certainly everything 'familiar' about suggesting that the most traditionally feminine person here is coddled and overly emotional. Or did that aspect of it simply escape you?"
+      ],
+      [
+        1,
+        "That was not the focus. Don't just play the gender-card when you feel that somebody is criticizing you."
+      ],
+      [
+        0,
+        "If you can't see how baselessly accusing someone like me of being too emotional to function is an inherently sexist conclusion, then I honestly do not know what to say to you."
+      ],
+      [
+        1,
+        "Good, then don't say something. And refrain from further \"revenge\" or I will have to report on you. More focus on work, please, this is more important than personal issues."
+      ],
+      [
+        0,
+        "And you don't think preemptively accusing me of being too weak to do this would be worth a report? Perhaps next time you should choose your words more carefully."
+      ],
+      [
+        1,
+        "Okay, I will. Back to work now."
+      ],
+      [
+        0,
+        "Good."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-10"
+      }
+    ]
+  },
+  "c999": {
+    "index": 0,
+    "participants": [
+      "Fayruz"
+    ],
+    "conversation": [
+      [
+        0,
+        "Hi again, do you need something?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "Yes, please gather materials for me.",
+        "output": "goto:c1000"
+      },
+      {
+        "text": "No, just saying hi",
+        "output": "goto:c1001"
+      }
+    ]
+  },
+  "c1000": {
+    "index": 0,
+    "participants": [
+      "Fayruz"
+    ],
+    "conversation": [
+      [
+        0,
+        "Sure thing!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "resources:fetch"
+      }
+    ]
+  },
+  "c1001": {
+    "index": 0,
+    "participants": [
+      "Fayruz"
+    ],
+    "conversation": [
+      [
+        0,
+        "Oh hi!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": ""
+      }
+    ]
+  }
+}

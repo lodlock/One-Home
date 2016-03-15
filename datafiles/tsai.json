@@ -1,0 +1,688 @@
+{
+  "c0": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "So, you are my utilities guy?"
+      ],
+      [
+        0,
+        "Yes... and I take it you must be the assigned head of the project. Pleased to meet you. Tsai, at your service."
+      ],
+      [
+        1,
+        "Yes, I am the architect and project leader. So, what can you do for me?"
+      ],
+      [
+        0,
+        "Well, I'm essentially here to provide you with the utilities and materials needed for the building project. Anything that is beyond a raw material is my domain: advanced solar paneling, rechargeable batteries, water filters, and even certain renewables. Some of these can be hard to acquire, but I've been setting up contacts to make sure we can get them with little to no unnecessary wait times."
+      ],
+      [
+        1,
+        "Nice, tell me a bit about yourself."
+      ],
+      [
+        0,
+        "Well, if you must know, I pretty much have a background in... acquisitions. My previous work has been for organizations that have had need for networking and resource gathering. I've maintained a reputation for being very good at that job, which is pretty much how I ended up being chosen for this project."
+      ],
+      [
+        1,
+        "That is reassuring to hear. I hope we will work well together."
+      ],
+      [
+        0,
+        "I do too. I work very well with people who maintain a good degree of professionalism and organization, as well as a clear understanding of what is at stake, so as long as that is maintained, all the better. Frankly, considering the nature of this project, I'd expect nothing less."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Of course, this is really serious work we are doing here!",
+        "output": "goto:c1"
+      },
+      {
+        "text": "Yeah, this is important, but no reason to have a broom up your behind about it.",
+        "output": "goto:c2"
+      }
+    ]
+  },
+  "c1": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Of course, this is really serious work we are doing here!"
+      ],
+      [
+        0,
+        "Exactly, The fate of the human race is at stake here. Frankly, why they are now attempting a project like this at this late date is appalling, but at least they are finally making an effort. I'm glad to see someone who is in charge of things understanding that."
+      ],
+      [
+        1,
+        "Then let us work hard to save humanity! Thank you for your dedication!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "goto:c,approval:+10"
+      }
+    ]
+  },
+  "c2": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Yeah, this is important, but no reason to have a broom up your behind about it"
+      ],
+      [
+        0,
+        "Really? So the fate the human species is nothing to be too worried about? I'm sorry if I happen to be taking such a task too seriously for your liking, but considering that nothing has been done about this until NOW, and we are pretty much facing extinction, I can't help but feel it would be important to have a certain gravitas about the situation. Frankly, it's this cavalier attitude from leadership that got us in this mess in the first place. So I guess I shouldn't be too surprised you are making the decisions."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Yes, you are right.",
+        "output": "goto:c3"
+      },
+      {
+        "text": "Oh come on, we are doing what we can here.",
+        "output": "goto:c4"
+      }
+    ]
+  },
+  "c3": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Yes, you are right. Sorry, I am a bit overwhelmed with how big this is. I shouldn't have spoken so flippantly."
+      ],
+      [
+        0,
+        "Well, this is a huge undertaking, so I can understand if you are stressed. Still, the UN did get together some of the best minds on the planet, so I'm sure as long as we do our best, we'll be able to come out on top."
+      ],
+      [
+        1,
+        "Oh come on, we are doing what we can here. After all, that's why we are here. What more do you want from me?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+0"
+      }
+    ]
+  },
+  "c4": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Oh come on, we are doing what we can here. After all, that's why we are here. What more do you want from me?"
+      ],
+      [
+        0,
+        "I guess that depends on what decisions you make as time goes on. I'm sure I'll have a list for you by then; or maybe not. Time will tell. But you are going to be our lead on this project. So please don't disappoint all of us on that part."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-10"
+      }
+    ]
+  },
+  "c5": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hey Tsai, I'm trying to figure out what to best do for the heating systems. Do you have any input?"
+      ],
+      [
+        0,
+        "Well, there have been some great strides made in the private home heating technologies, particular when it comes to solar power. I personally think the sunpumps have great potential for optimal results."
+      ],
+      [
+        1,
+        "Sunpumps? I saw that on the drawing board. Is that better than just the older types of heating somehow?"
+      ],
+      [
+        0,
+        "Well, it is cutting edge, so that should tell you something. The design is not only efficient, but it's working off of a renewable resource that has proven reliable and effective when applied to other systems. It's a closed system as well, so you won't have to acquire other parts or any type of fuel once installed. And, of course, no consuming of combustible fuel sources, such as oil or gas."
+      ]
+    ],
+    "options": [
+      {
+        "text": "That sounds really good!",
+        "output": "goto:c6"
+      },
+      {
+        "text": "Sun power has quite some issues I think.",
+        "output": "goto:c9"
+      }
+    ]
+  },
+  "c6": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "That sounds really good! Thank you, Tsai, your input was really helpful."
+      ],
+      [
+        0,
+        "Of course, sir. That's what I'm here for. Do you want me to get started on acquiring the parts needed?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "Yes, that would be prudent.",
+        "output": "goto:c7"
+      },
+      {
+        "text": "Let me check with the others first to see what else we need.",
+        "output": "goto:c8"
+      }
+    ]
+  },
+  "c7": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Yes, that would be prudent. Please get to it."
+      ],
+      [
+        0,
+        "Yes, sir."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c8": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Let me check with the others first to see what else we need."
+      ],
+      [
+        0,
+        "Right. Just let me know when to get to work."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "goto:c,approval:+10"
+      }
+    ]
+  },
+  "c9": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Sun power has quite some issues I think. I'm not so sure about that. I think I'll rather talk to the others."
+      ],
+      [
+        0,
+        "If you say so. Though I'm not certain what issues you are talking about, unless we've somehow ended up back in 1981."
+      ],
+      [
+        1,
+        "Let me decide about that. See you later."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-5"
+      }
+    ]
+  },
+  "c10": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hi Tsai. How about we get to know each other a bit better? Tell me something about yourself."
+      ],
+      [
+        0,
+        "Well, there's not too much to tell. I'm sure you could tell I happen to like things such as computers, recent software, and other cutting edge tech. I also happen to dabble a bit in researching and reading past philosophical works, though I also balance that with a good martial arts practice as well. Exercising both the body as well as the mind is important, after all."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Wow, you are really well rounded.",
+        "output": "goto:c11"
+      },
+      {
+        "text": "Bit of an overachiever, are you.",
+        "output": "goto:c14"
+      }
+    ]
+  },
+  "c11": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Wow, you are really well rounded. You probably could teach me some things."
+      ],
+      [
+        0,
+        "Maybe. It depends on what you want to be taught, I guess."
+      ]
+    ],
+    "options": [
+      {
+        "text": "I'd love to see some of that cutting edge tech!",
+        "output": "goto:c12"
+      },
+      {
+        "text": "Martial Arts is something I've always been interesting in.",
+        "output": "goto:c13"
+      }
+    ]
+  },
+  "c12": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "Well, that is part of my job, if you remember. But there is some other fantastic tech out there not related to our project that's also interesting. If you really are interested, I could certainly show you what I've come across.... Like the new CX21 chip from DMA... it's certainly been showing off its raw processing power."
+      ],
+      [
+        1,
+        "Nice, let's have a look!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c13": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "Really? Well it's definitely a worthwhile practice. Besides the rather obvious benefits, you learn so much about yourself and others the more you practice it. I supposed that's why so few people actually do understand themselves and others... it takes a lot of work and effort to actually practice it."
+      ],
+      [
+        1,
+        "Yes, I agree that a lot of people probably do not want to put the effort in. I really respect you for being so dedicated."
+      ],
+      [
+        0,
+        "Why... thank you. I do still have a ways to go before I fully feel competent in it, honestly."
+      ],
+      [
+        1,
+        "Your humility is only showing that you have put the effort in. If... no, when we get out of this alive, I'd like to train with you if you wouldn't mind."
+      ],
+      [
+        0,
+        "You sure about that? The training can be pretty hard at times."
+      ],
+      [
+        1,
+        "Only makes it more worthwhile. I'm looking forward to it! For right now I should go back to work though. Thank you for the conversation."
+      ],
+      [
+        0,
+        "No problem. Anytime."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+15"
+      }
+    ]
+  },
+  "c14": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Bit of an overachiever, are you."
+      ],
+      [
+        0,
+        "They just happen to be my interests, and so I pursue them. I'm not really trying to be seen as an overachiever just because I happen to gain a certain level of competence in them. Though I have noticed people who accuse others of that barely achieve anything themselves."
+      ],
+      [
+        1,
+        "I didn't accuse you of anything, but if you want to take it that way, fine. I have nothing to proof to you."
+      ],
+      [
+        0,
+        "Other than that you can make this project succeed, no. Anyway, if you'll excuse me, I have work to do."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-5"
+      }
+    ]
+  },
+  "c15": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Wow, Tsai, that match with Jacques was something else."
+      ],
+      [
+        0,
+        "It was interesting in its own way; though skill is always an important thing to have in situations like that."
+      ]
+    ],
+    "options": [
+      {
+        "text": "You were amazing!",
+        "output": "goto:c16"
+      },
+      {
+        "text": "You were pretty hard on him.",
+        "output": "goto:c19"
+      }
+    ]
+  },
+  "c16": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Humble again? You were amazing!"
+      ],
+      [
+        0,
+        "Thank you... I do try to keep my skills up."
+      ]
+    ],
+    "options": [
+      {
+        "text": "I'm also really happy that you and Jacques seem to get along better now.",
+        "output": "goto:c17"
+      },
+      {
+        "text": "Say, are all your skills that impressive?",
+        "output": "goto:c18"
+      }
+    ]
+  },
+  "c17": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "I'm also really happy that you and Jacques seem to get along better now. That was good sportsmanship on your side. Thanks."
+      ],
+      [
+        0,
+        "Well, it's true we had our differences. But I'm finding we understand each other better these days. He isn't nearly as much of a boorish lout as I took him for at first."
+      ],
+      [
+        1,
+        "That is good to hear, we are a team after all, and I think we will all be doing better if we also are friends."
+      ],
+      [
+        0,
+        "I agree. I have found that the more we get along, the more we're able to accomplish. I... should have fully realized that sooner with Jacques at first, but at least things are better now. And now we all have a good chance of succeeding at this."
+      ],
+      [
+        1,
+        "Awesome! I hope we can be friends, too."
+      ],
+      [
+        0,
+        "I think there's a good chance of that."
+      ],
+      [
+        1,
+        "Onwards to success then. Together."
+      ],
+      [
+        0,
+        "Definitely. Onwards, then."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c18": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Yes, I've seen that. Say, are all your skills that impressive?"
+      ],
+      [
+        0,
+        "Well, that depends... not all my skills are on display for everyone."
+      ],
+      [
+        1,
+        "I am well aware of that, but that only makes it more interesting."
+      ],
+      [
+        0,
+        "True... I will say that so far, no one's complained about any of my skills... how about yours?"
+      ],
+      [
+        1,
+        "Oh, I'd say most persons would need a while to get their brain well enough together again to make any understandable verbal statements. But that would sound like me bragging, I could just demonstrate."
+      ],
+      [
+        0,
+        "You're not suggesting here, are you? Wouldn't that be... somewhat inappropriate?"
+      ],
+      [
+        1,
+        "As if you hadn't rigged the lock on the room..."
+      ],
+      [
+        0,
+        "Pretty observant of you... I knew there was a reason I liked you."
+      ],
+      [
+        1,
+        "I'm sure I can improve on that..."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+20,romance:true"
+      }
+    ]
+  },
+  "c19": {
+    "index": 0,
+    "participants": [
+      "Tsai",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "You were pretty hard on him."
+      ],
+      [
+        0,
+        "It could have been much harder. Honestly, if I was trying to really hurt him, he wouldn't be conscious."
+      ],
+      [
+        1,
+        "Man, you seriously are dark. Well, at least you haven't actually hurt anybody here yet, just make sure that stays that way."
+      ],
+      [
+        0,
+        "Have no worries on that score... I know how to control myself just fine, so you don't have to worry about me cracking your skull anytime soon."
+      ],
+      [
+        1,
+        "Okaaaay. I'll get back to work then, and so should you."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-10"
+      }
+    ]
+  },
+  "c999": {
+    "index": 0,
+    "participants": [
+      "Tsai"
+    ],
+    "conversation": [
+      [
+        0,
+        "Hi again, do you need something?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "Yes, please gather materials for me.",
+        "output": "goto:c1000"
+      },
+      {
+        "text": "No, just saying hi",
+        "output": "goto:c1001"
+      }
+    ]
+  },
+  "c1000": {
+    "index": 0,
+    "participants": [
+      "Tsai"
+    ],
+    "conversation": [
+      [
+        0,
+        "Sure thing!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "resources:fetch"
+      }
+    ]
+  },
+  "c1001": {
+    "index": 0,
+    "participants": [
+      "Tsai"
+    ],
+    "conversation": [
+      [
+        0,
+        "Oh hi!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": ""
+      }
+    ]
+  }
+}

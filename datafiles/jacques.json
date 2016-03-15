@@ -1,0 +1,1142 @@
+{
+  "c0": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "Wow! Stop right there!"
+      ],
+      [
+        1,
+        "Um, okay, nice to meet you too, I guess."
+      ],
+      [
+        0,
+        "What do you think you're doing walking in here without safety glasses? Grab some from the table over there."
+      ],
+      [
+        1,
+        "Okay, okay, grabbing safety glasses now. See? So, who are you?"
+      ],
+      [
+        0,
+        "Bien. How are you? You're the fresh meet?"
+      ],
+      [
+        1,
+        "I'm the architect, so kind of your team leader. Name's __player__, what's yours?"
+      ],
+      [
+        0,
+        "Says it right here on the shirt. *points* Jacques."
+      ],
+      [
+        0,
+        "Architect, hm?"
+      ],
+      [
+        1,
+        "Yes, architect. And from the chainsaw and the... ahm, wood sculpture, I presume you are my wood specialist?"
+      ],
+      [
+        0,
+        "Hehe, peut être. But yes, I am working with wood and heavy machinery."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Heavy machinery... I presume you don't just mean your muscles, right?",
+        "output": "goto:c1"
+      },
+      {
+        "text": "Did you just call your biceps heavy machinery?",
+        "output": "goto:c2"
+      }
+    ]
+  },
+  "c1": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Heavy machinery... I presume you don't just mean your muscles, right?"
+      ],
+      [
+        0,
+        "Even I have to admit that a chainsaw kicks worse than me. See this? *pulls up the shirt to reveal a bruise* Almost got me that little bitch. *points at a chainsaw nearby*"
+      ],
+      [
+        0,
+        "That's why work safety is so important around here."
+      ],
+      [
+        1,
+        "Ouch, that looks painful. You okay?"
+      ],
+      [
+        0,
+        "Ce n'est rien. Well, to me. I know some people around here who would be whining for a week."
+      ],
+      [
+        0,
+        "So, is there anything I can do for you?"
+      ],
+      [
+        1,
+        "Well, I'm just trying to get to know my team. So, what can you do for me in this project?"
+      ],
+      [
+        0,
+        "The real question here is, what can't I do. As you have figured out, I work with wood. Most people just know wood from cheap Swedish beds but there is pretty much a type of wood for every application."
+      ],
+      [
+        1,
+        "That's good to hear! I'll make sure to ask you about wood then."
+      ],
+      [
+        0,
+        "Très bien. I'll get back to work. You can keep the glasses."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c2": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Did you just call your biceps heavy machinery?"
+      ],
+      [
+        0,
+        "And are you trying to argue with that? *flexes*"
+      ]
+    ],
+    "options": [
+      {
+        "text": "Nope, just trying to get you to pose. No complaints here.",
+        "output": "goto:c3"
+      },
+      {
+        "text": "Seriously... have you nothing better to do than pose?",
+        "output": "goto:c4"
+      }
+    ]
+  },
+  "c3": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Nope, just trying to get you to pose. No complaints here."
+      ],
+      [
+        0,
+        "Good to hear. And I actually meant the chainsaws, winches, movers... *points at different tools in the shop*"
+      ],
+      [
+        1,
+        "Oh, okay. So what can you do for me in this project?"
+      ],
+      [
+        0,
+        "The real question here is, what can't I do. As you have figured out, I work with wood. Most people just know wood from cheap Swedish beds but there is pretty much a type of wood for every application."
+      ],
+      [
+        1,
+        "That's good to hear! I'll make sure to ask you about wood then."
+      ],
+      [
+        0,
+        "Très bien. I'll get back to work. You can keep the glasses."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c4": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Seriously... have you nothing better to do than pose?"
+      ],
+      [
+        0,
+        "You are the one keeping me from work - might as well have fun with it."
+      ],
+      [
+        1,
+        "Fine, fine... so what can you actually do for me?"
+      ],
+      [
+        0,
+        "The real question here is, what can't I do. As you have figured out, I work with wood. Most people just know wood from cheap Swedish beds but there is pretty much a type of wood for every application."
+      ],
+      [
+        1,
+        "That's good to hear! I'll make sure to ask you about wood then."
+      ],
+      [
+        0,
+        "Très bien. I'll get back to work. You can keep the glasses."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-5"
+      }
+    ]
+  },
+  "c5": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hey Jacques, I am trying to figure out how to best provide electricity to our house, any input?"
+      ],
+      [
+        0,
+        "Are you asking the wood guy about electricity now? You must be at a real loss. *grins*"
+      ],
+      [
+        1,
+        "You are also the guy handling a lot of power tools, so I thought you might have a vested interest in getting enough electricity."
+      ],
+      [
+        0,
+        "Oh, I am and I do have a pretty strong opinion. The big grids have started failing all over for years. Nobody ever managed to switch from singular points of energy production to distributed production. So we do need a localized energy source - and hydro power is obviously the best option."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Hah, I knew you would have an opinion.",
+        "output": "goto:c6"
+      },
+      {
+        "text": "I'm somewhat surprised you actually have an opinion.",
+        "output": "goto:c9"
+      }
+    ]
+  },
+  "c6": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hah, I knew you would have an opinion. So much for \"just\" being the wood guy."
+      ],
+      [
+        0,
+        "Being the wood guy is tough enough, let me tell you that."
+      ],
+      [
+        1,
+        "I thought you are a tough guy, so shouldn't being the wood guy be right up your alley?"
+      ],
+      [
+        0,
+        "It is hard work for sure. Not being tough, that comes to me naturally, but working with wood is tough if you want to do it right. That's why it is so rewarding."
+      ],
+      [
+        1,
+        "That's pretty cool."
+      ],
+      [
+        0,
+        "I see it like this: With other materials, there are a lot of shortcuts. With wood, you have to work with the material and you cannot work against it."
+      ]
+    ],
+    "options": [
+      {
+        "text": "It is rather amazing that we still work with wood, and actually get some good results out of it.",
+        "output": "goto:c7"
+      },
+      {
+        "text": "I don't know, wood seems kind of outdated at this point.",
+        "output": "goto:c8"
+      }
+    ]
+  },
+  "c7": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "It is rather amazing that we still work with wood, and actually get some good results out of it."
+      ],
+      [
+        0,
+        "I know that I am biased here, évidemment, but I believe we are not even getting started to use wood to its full potential."
+      ],
+      [
+        1,
+        "Well, then you better get to finding that full potential! If not now, we might not get the chance anymore, after all!"
+      ],
+      [
+        0,
+        "Don't you worry, we'll get this done and we'll get it done right."
+      ],
+      [
+        1,
+        "Glad to hear it, and thanks for your confidence in me. So, let's get back to electricity, hydro, you said?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5,goto:c10"
+      }
+    ]
+  },
+  "c8": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "I don't know, wood seems kind of outdated at this point."
+      ],
+      [
+        0,
+        "Oh, you mean because it has worked for literally thousands of years, grows naturally, needs little processing, is easy to dispose, can be recycled, and is more versatile than any other material?"
+      ],
+      [
+        1,
+        "Not so sure about the versatile part but okay, I don't think I can ever convince my wood guy of anything else."
+      ],
+      [
+        0,
+        "Hey, there are places for other materials in building, but try to use concrete in half the places where you can use wood... or, well, plutôt don't try that."
+      ],
+      [
+        0,
+        "Okay, okay, anyway, so hydro you said?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-5,goto:c10"
+      }
+    ]
+  },
+  "c9": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "So you do have an opinion, and an informed one even. I'm somewhat surprised."
+      ],
+      [
+        0,
+        "I have been working off the grid for years now, so I've had my fair share of experiences. Good and bad."
+      ],
+      [
+        1,
+        "Well, that would make sense, experience, instead of book knowledge, that's something that does fit for you."
+      ],
+      [
+        0,
+        "You have a pretty well-grounded opinion about me, huh? Maybe you should assume less and observe more."
+      ],
+      [
+        1,
+        "Of course you want me to look at you more..."
+      ],
+      [
+        0,
+        "As if you don't like what you see..."
+      ],
+      [
+        1,
+        "Aaaaanyway. So, hydro, you said?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-10,goto:c10"
+      }
+    ]
+  },
+  "c10": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "Quaip, hydro. One of the oldest energy sources known to mankind and it still is so simple and elegant."
+      ],
+      [
+        1,
+        "Why do you think it would work best for our project?"
+      ],
+      [
+        0,
+        "Let's start with the biggest downside: We have to find a place where we can install a hydro powered turbine, but that is pretty much it. It needs little maintenance, if we install gratings to keep debris out it is very unlikely to break, and if we have picked a good spot it will not run out."
+      ]
+    ],
+    "options": [
+      {
+        "text": "That does sound pretty neat, I'll take a look at locations.",
+        "output": "goto:c11"
+      },
+      {
+        "text": "Hm, might work, but I think I will also look into other options.",
+        "output": "goto:c12"
+      }
+    ]
+  },
+  "c11": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "That does sound pretty neat, I'll take a look at locations. Thank you!"
+      ],
+      [
+        0,
+        "Pas de problème. And stay away from the solar panels. One hail storm and they are toast - also, they generate huge currents, which makes installing them a hassle and a hazard."
+      ],
+      [
+        1,
+        "Wow, didn't know that. Thanks for the advice."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c12": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hm, might work, but I think I will also look into other options. Thanks for the advice anyway."
+      ],
+      [
+        0,
+        "Do what you want but don't come running to me if it fails. Those solar cells for example are mainly a big fire hazard, if you ask me. Smokey bear should send a hail storm to rip them right off the roof."
+      ],
+      [
+        1,
+        "You weird Canadians..."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-5"
+      }
+    ]
+  },
+  "c13": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Hi Jacques, I thought it might be a good idea to get to know my team better, so tell me a bit about yourself."
+      ],
+      [
+        0,
+        "Okay... my name is Jacques, I am a Scorpio and like long walks in the rain."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Long walks in the rain, isn't that bad for the wood on your axe?",
+        "output": "goto:c14"
+      },
+      {
+        "text": "Seriously? You are trolling me, aren't you?",
+        "output": "goto:c17"
+      }
+    ]
+  },
+  "c14": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Long walks in the rain, isn't that bad for the wood on your axe?"
+      ],
+      [
+        0,
+        "Nope, hickory deals very well with moisture and I always keep the shaft well oiled... and that sounded way dirtier than intended."
+      ],
+      [
+        1,
+        "As if you didn't point this out only to make sure I noticed..."
+      ],
+      [
+        0,
+        "I can neither confirm nor deny any of that."
+      ],
+      [
+        1,
+        "You are absolutely incorrigible. But unless you now want me to ask you about what on earth Scorpios do, I need  a bit more to go on, big guy."
+      ],
+      [
+        0,
+        "Avant tout: I think astrology is BS. I wouldn't even be able to tell you when Scorpios are supposedly born. Other than that: Well, what would you like to know? I always had a thing for wood, so I made working with it my career. Always liked to be outside, which is probably a very Canadian thing to say. I like e.s.b., and the thing about walks in the rain is kinda true."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Being outside, eh?",
+        "output": "goto:c15"
+      },
+      {
+        "text": "Lots of outdoor activities then. That's nice.",
+        "output": "approval:+10,goto:c16"
+      }
+    ]
+  },
+  "c15": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Being outside, eh?"
+      ],
+      [
+        0,
+        "Don't you know the song? First of May, first of May, outdoor... hugging... starts today."
+      ],
+      [
+        1,
+        "Why would hugging only start in May?"
+      ],
+      [
+        0,
+        "Because it finally gets warm enough to not get frostbite on your private parts when... hugging outside, if you catch me."
+      ],
+      [
+        1,
+        "Oh... OOOOOOH."
+      ],
+      [
+        1,
+        "So, uhm, anyway... nice talking to you. I'll go then, bye."
+      ],
+      [
+        0,
+        "See you around."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c16": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Lots of outdoor activities then. That's nice."
+      ],
+      [
+        0,
+        "It is. We soi-disant modern humans need to realize how cold, dark, and lonely it can get so we appreciate what we have more."
+      ],
+      [
+        1,
+        "Wow, that is pretty deep actually. And I think that can teach us a lesson about where we are right now."
+      ],
+      [
+        0,
+        "I hope so. Most of us start to twitch when they have a bad Wifi connection and freak when the power goes out for a minute or two. Can you imagine what happens to those people when something really goes wrong?"
+      ],
+      [
+        1,
+        "Nothing pretty, that is for sure. Which is exactly why we need this project to be a success. To make sure that short flickers is all the darkness we have to endure. Of course, unless we want to be in the dark. The dark of a nice camping tour, that is."
+      ],
+      [
+        0,
+        "And once more, it is up to us hard working folk to save all the spoiled brats."
+      ],
+      [
+        1,
+        "We are all human in the end."
+      ],
+      [
+        0,
+        "That is true - I'm just not sure how much that means."
+      ],
+      [
+        1,
+        "We'll get the answer to that very fast if we don't succeed here. And for once, I think I prefer not getting an answer."
+      ],
+      [
+        0,
+        "I have to agree that in this rare case ignorance might be bliss."
+      ],
+      [
+        1,
+        "You know what? I'll drink to that, let's get you one of those horrible e.s.b.s of yours and call it a night."
+      ],
+      [
+        0,
+        "Enfin! I thought you would never suggest that..."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c17": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Seriously? You are trolling me, aren't you?"
+      ],
+      [
+        0,
+        "I am. I don't even know if I am a Scorpio. I just think it sounds cool."
+      ],
+      [
+        1,
+        "If anything I would have thought you would go for Leo. I mean, you're certainly hairy enough for one. *grins*"
+      ],
+      [
+        0,
+        "You ain’t seen nothing yet..."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "goto:c1"
+      }
+    ]
+  },
+  "c18": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Is that an invitation?"
+      ],
+      [
+        0,
+        "Only if you want it to be one."
+      ],
+      [
+        1,
+        "Actually... I might just be curious enough."
+      ],
+      [
+        0,
+        "Well, I don't want anything to get in the way of our working relationship but if we are both on the same page in that regard..."
+      ],
+      [
+        1,
+        "I'm sure between the two responsible adults we are, we won't have trouble keeping things up..."
+      ],
+      [
+        0,
+        "Don't you even want me to buy you a drink first?"
+      ],
+      [
+        1,
+        "Sorry, I didn't know you Canadians insisted on getting beaver piss first."
+      ],
+      [
+        1,
+        "But hey, whatever floats your boat."
+      ],
+      [
+        0,
+        "Well, if you are into that kind of thing, we can surely find you some beavers..."
+      ],
+      [
+        1,
+        "Touché."
+      ],
+      [
+        1,
+        "But no, thanks."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+15;romance:true"
+      }
+    ]
+  },
+  "c19": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "And I think I'm fine with that. You show off enough in the gym already."
+      ],
+      [
+        0,
+        "And you didn't seem to mind, if I might say so."
+      ],
+      [
+        1,
+        "I will not comment on that!"
+      ],
+      [
+        0,
+        "I didn't expect you to. But the gym is no place to show off for me, it is a place to work."
+      ],
+      [
+        1,
+        "For that you are bitching around with Tsai in there quite a bit."
+      ],
+      [
+        0,
+        "To bitch around, you have to be a bitch first... and Tsai is pute enough for both of us."
+      ],
+      [
+        1,
+        "Really, can't the two of you do all of us a favor and just settle your differences. This ongoing bickering is really bad for team morale."
+      ],
+      [
+        0,
+        "I am all for that - but he is either too stupid or too stubborn to take an open hand for what it is."
+      ],
+      [
+        1,
+        "Well, figure it out you two. I will not have this type of behaviour on my team. So, get to it. Bye."
+      ],
+      [
+        0,
+        "Don't let the door hit you in the... derrière... on the way out."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-15"
+      }
+    ]
+  },
+  "c20": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "Aloha! How are you doing today?"
+      ],
+      [
+        1,
+        "Aloha? That's the least French thing I've heard out of you in a while... trying to hide something after that fight?"
+      ],
+      [
+        0,
+        "Excusez-moi je ne recommencerai pas. Ça va?"
+      ],
+      [
+        1,
+        "I walked into that one... okay, okay. You know I don't speak French, so what did you just say?"
+      ],
+      [
+        0,
+        "I said something along the lines of: Aloha! How are you doing today?"
+      ],
+      [
+        1,
+        "We are going in circles here. I'm fine. How are you doing after the fight?"
+      ],
+      [
+        0,
+        "I am really well, en fait. Some bruises but nothing major."
+      ],
+      [
+        0,
+        "And Tsai seems to be much more comfortable around me since I put him in his place."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Of course you did great in the fight, my big guy.",
+        "output": "goto:c21"
+      },
+      {
+        "text": "You two seemed pretty well matched.",
+        "output": "goto:c22"
+      },
+      {
+        "text": "I don't condone fights in my team, so make sure both of you stay in line now.",
+        "output": "goto:c25"
+      }
+    ]
+  },
+  "c21": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Well, nothing unexpected there. Of course you did great in the fight, my big guy."
+      ],
+      [
+        0,
+        "Tsai stood his ground well but I guess it was obvious how it would end. I think we stopped it at the right moment."
+      ],
+      [
+        1,
+        "Thanks for that, I would prefer you not breaking other team members... well, you can break me in but that's a whole different topic. *wink*"
+      ],
+      [
+        0,
+        "I do have to break in some workpieces here first, but I guess we can schedule something for later..."
+      ],
+      [
+        1,
+        "Well, I hope you breaking in those workpieces is your way of saying you are working on some... toys... See you later, big guy..."
+      ],
+      [
+        0,
+        "Toys... you don't need a saddle to ride a bull. See you later."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c22": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "Well, put him in his place is maybe a bit too much. You two seemed pretty well matched."
+      ],
+      [
+        0,
+        "I gave him a break before I broke him."
+      ]
+    ],
+    "options": [
+      {
+        "text": "Are you sure I don't need to ask Fayruz to set you two finally up for that date?",
+        "output": "goto:c23"
+      },
+      {
+        "text": "Sure... so I take it you don't actually need the medicine I've noticed standing around.",
+        "output": "goto:c24"
+      }
+    ]
+  },
+  "c23": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "Are you sure I don't need to ask Fayruz to set you two finally up for that date so you can get the tension out?"
+      ],
+      [
+        0,
+        "Are you sure I don't need to ask Fayruz to set you two finally up for that date so you can get the tension out?"
+      ],
+      [
+        1,
+        "Just keep telling yourself that. In any case, I'm glad that you and Tsai seem to get along better now."
+      ],
+      [
+        0,
+        "Me too, if I'm honest. It's never good to have this kind of tension in the team."
+      ],
+      [
+        1,
+        "Good to see we agree, guess now I just have to invite both of you to a nice evening of drinking and bad philosophy and we are all happily being friends."
+      ],
+      [
+        0,
+        "Let's not take this too far. We get along bien, we don't need to be friends."
+      ],
+      [
+        1,
+        "Suit yourself! But I'm still seeing you at the bar later!"
+      ],
+      [
+        0,
+        "You know, I have this speech impediment... I can never say \"no\" to that."
+      ],
+      [
+        1,
+        "I'm not paying for you getting it fixed, it's way too convenient. See you later!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+5"
+      }
+    ]
+  },
+  "c24": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        0,
+        "Sure... so I take it you don't actually need the medicine I've noticed standing around."
+      ],
+      [
+        0,
+        "I've got this bear cold. Really bad. I'm actually almost dying here."
+      ],
+      [
+        0,
+        "Aw, you poor, poor thing. I'm not putting on a nurse outfit for you, so just sniffle where the rest of us can't hear it."
+      ],
+      [
+        0,
+        "How about me putting on the nurse outfit?"
+      ],
+      [
+        0,
+        "If we get another Halloween I'm buying you that damn outfit myself! *laughs* You're okay, dude. If you really have a cold, get some tea, Fayruz can set you up."
+      ],
+      [
+        0,
+        "I'm fine, merci."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:+10"
+      }
+    ]
+  },
+  "c25": {
+    "index": 0,
+    "participants": [
+      "Jacques",
+      "__player__"
+    ],
+    "conversation": [
+      [
+        1,
+        "I don't condone fights in my team, so make sure both of you stay in line now."
+      ],
+      [
+        0,
+        "We're good now. Sometimes the only way to let steam off, is to open a valve."
+      ],
+      [
+        1,
+        "Not surprised that you would say that. I hope you let your machismo \"vent\" enough then."
+      ],
+      [
+        0,
+        "I won't tell you that my machismo had nothing to do with it, but please don't tell me Tsai didn't want the fight as much as me."
+      ],
+      [
+        1,
+        "I was there, I did hear the conversation, and the personal attack. So no, I won't tell you that he isn't at fault as well, but that doesn't mean that I will not discipline both of you."
+      ],
+      [
+        0,
+        "Discipline? Well, go ahead. Do your worst."
+      ],
+      [
+        1,
+        "I won't stoop to your level to bite for that obvious bait. Just be assured that this is going in the reports, as will any further altercations."
+      ],
+      [
+        0,
+        "There will be no further altercations and I am not afraid to stand up for my actions. So what I said stands. Go ahead. Do your worst."
+      ],
+      [
+        1,
+        "Fine, get back to work!"
+      ],
+      [
+        0,
+        "Have a nice day, too."
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "approval:-10"
+      }
+    ]
+  },
+  "c999": {
+    "index": 0,
+    "participants": [
+      "Jacques"
+    ],
+    "conversation": [
+      [
+        0,
+        "Hi again, do you need something?"
+      ]
+    ],
+    "options": [
+      {
+        "text": "Yes, please gather materials for me.",
+        "output": "goto:c1000"
+      },
+      {
+        "text": "No, just saying hi",
+        "output": "goto:c1001"
+      }
+    ]
+  },
+  "c1000": {
+    "index": 0,
+    "participants": [
+      "Jacques"
+    ],
+    "conversation": [
+      [
+        0,
+        "Sure thing!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": "resources:fetch"
+      }
+    ]
+  },
+  "c1001": {
+    "index": 0,
+    "participants": [
+      "Jacques"
+    ],
+    "conversation": [
+      [
+        0,
+        "Oh hi!"
+      ]
+    ],
+    "options": [
+      {
+        "text": "__callback__",
+        "output": ""
+      }
+    ]
+  }
+}
